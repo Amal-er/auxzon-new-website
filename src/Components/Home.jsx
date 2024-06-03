@@ -2,19 +2,65 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import ooze from "../assets/rep.webp";
-import ash from "../assets/images/ash.svg";
+import ash from "../assets/images/ash.png";
 // import trail from "../video/trail.mp4";
 import auxzonv1 from "../video/auxzonv1.mp4";
 import bcsolu from "../assets/images/bcsolu.png";
 import datasolu from "../assets/images/datasolu.png";
 import analytix from "../assets/images/analytix.png";
 import software from "../assets/images/softwaresicon.png";
+// ------------------------------------------
+import health from "../assets/healthcare_2869741.png";
+import finance from "../assets/financeicon.png";
+import tele from "../assets/communication-network_12922964.png";
+import manufacturing from "../assets/manufacturing_1814432.png";
+import transportation from "../assets/transportation_995334.png";
+import insurance from "../assets/life-insurance_1518636.png";
+import publicsector from "../assets/team_1654195.png";
+import marketing from "../assets/megaphone_4565288.png";
+import education from "../assets/education_3976555.png";
+// ---------------------------------------------
+import expertise from "../assets/images/expertise.webp";
+import Footer from "./Footer";
+// --------------------------------------------
 
 const services = [
-  { title: "Analytics Marketing", icon: analytix },
-  { title: "Software Solution", icon: software },
-  { title: "Business Consulting Solutions", icon: bcsolu },
-  { title: "Data Solutions", icon: datasolu },
+  {
+    id: 1,
+    title: "Analytix Marketing",
+    icon: analytix,
+    url: "/analytixmarketing",
+  },
+  {
+    id: 2,
+    title: "Software Solution",
+    icon: software,
+    url: "/softwaresolutions",
+  },
+  {
+    id: 3,
+    title: "Business Consulting",
+    icon: bcsolu,
+    url: "/businessconsulting",
+  },
+  {
+    id: 4,
+    title: "Data Solutions",
+    icon: datasolu,
+    url: "/datasolutions",
+  },
+];
+
+const industries = [
+  { title: "health care", icon: analytix },
+  { title: "finance", icon: software },
+  { title: "Telecommunication", icon: bcsolu },
+  { title: "Manufacturing", icon: datasolu },
+  { title: "Transportation", icon: analytix },
+  { title: "insurance", icon: software },
+  { title: "Public Sector", icon: bcsolu },
+  { title: "Marketing", icon: datasolu },
+  { title: "education", icon: datasolu },
 ];
 
 const Home = () => {
@@ -50,7 +96,7 @@ const Home = () => {
               transform your data into a strategic asset for sustainable growth
               and innovation.
             </p>
-            <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-slate-700 items-center mt-4 hover:bg-red-500 ">
+            <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-custom-gradient items-center mt-4 hover:bg-red-500 ">
               Discover
             </button>
           </div>
@@ -65,9 +111,12 @@ const Home = () => {
       {/* About Us Section */}
       <div className="w-full h-auto flex flex-col md:flex-row py-4">
         <div className="w-full md:w-1/2 py-10 flex justify-center items-center">
-          <img className="w-auto max-h-48 md:max-h-64" src={ash} alt="" />
+          <img className="w-auto max-h-52 md:max-h-72" src={ash} alt="" />
         </div>
         <div className="w-full md:w-1/2 py-7 flex flex-col justify-center px-5 md:py-24 md:px-20 ">
+          <h2 className="gradient-text text-left md:text-left mb-4  text-[33px] font-semibold">
+            About Us
+          </h2>
           <p className="text-left md:text-left mb-4 text-black">
             Are you ready to elevate your business to new heights? Look no
             further than auxzon Solutions for data-driven business insights
@@ -75,7 +124,7 @@ const Home = () => {
             to provide trends and strategies to help your business thrive in
             today's dynamic digital landscape.
           </p>
-          <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-slate-700 items-center mt-4 hover:bg-red-500 ">
+          <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-custom-gradient items-center mt-4 hover:bg-red-500  text-white">
             Read more
           </button>
         </div>
@@ -99,19 +148,18 @@ const Home = () => {
 
       {/* ---------------service------------------- */}
       <div className="w-full h-auto py-5 px-5 border ">
-        <div className="mb-4">
-          <h1 className="text-3xl font-bold">Services</h1>
-          <p>
-            Empowering business transformation with Neural Network solutions
-          </p>
+        <div className="w-full h-32 flex flex-col justify-center items-center">
+          <h1 className="text-3xl font-medium text-center">
+            <p className="gradient-text text-[33px]">Our Services</p>
+            <p>Special neural features for your Services</p>
+          </h1>
         </div>
-        <div className="w-full  grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4 p-4">
+
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4 p-4">
           {services.map((service, index) => (
             <div
               key={index}
-              className={`p-4 flex flex-col justify-between border ${
-                index % 2 === 0 ? "" : ""
-              } ${index % 2 === 1 ? "" : ""}`}
+              className={`p-4 flex flex-col justify-between shadow-lg`}
             >
               <div className="flex items-center space-x-4">
                 <img
@@ -127,35 +175,36 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <button className="bg-slate-700 w-36 h-10 text-white px-2 py-1 mt-2 ml-16 rounded-full">
+              <Link
+                to={service.url}
+                className="bg-custom-gradient w-36 h-10 text-white px-2 py-1 mt-2 ml-16 rounded-full flex items-center justify-center"
+              >
                 Read more
-              </button>
+              </Link>
             </div>
           ))}
         </div>
       </div>
 
       {/* industries */}
-      {/* <div className="container mx-auto py-10">
-        <h2 className="text-3xl font-bold text-center mb-8">
-          Our <span className="gradient-text">industrs</span>
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg"
-            >
-              <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="text-lg font-semibold">{service.title}</h3>
-            </div>
-          ))}
-        </div>
-        <button className="fixed right-4 top-1/2 transform -translate-y-1/2 bg-teal-500 text-white py-2 px-4 rounded">
-          Enquire Now
-        </button>
-      </div> */}
-
+      {/* ------------------------------ */}
+      <div className="w-full h-32 flex justify-center items-center">
+        <h1 className="text-3xl font-medium text-center md:text-left">
+          <span className="block md:inline text-[33px]">
+            Our Services Apply{" "}
+          </span>
+          <p className="block md:inline text-[33px]">
+            to These <span className="gradient-text"> Industries</span>
+          </p>
+        </h1>
+      </div>
+      {/* ------------------------------- */}
+      <div className="flex justify-center items-center md:py-10 ">
+        <img src={expertise} alt="" />
+      </div>
+      <div>
+        <Footer />
+      </div>
       {/* ---------------------------------- */}
     </div>
   );
