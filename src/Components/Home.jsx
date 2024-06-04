@@ -20,8 +20,13 @@ import publicsector from "../assets/team_1654195.png";
 import marketing from "../assets/megaphone_4565288.png";
 import education from "../assets/education_3976555.png";
 // ---------------------------------------------
-import expertise from "../assets/images/expertise.webp";
+import hexagon from "../assets/images/hexagon.png";
+// import expertise from "../assets/images/expertise.webp";
 import Footer from "./Footer";
+import Layout from "./Layout";
+
+// -------------------------------------------
+
 // --------------------------------------------
 
 const services = [
@@ -65,17 +70,19 @@ const industries = [
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isEnquireFormOpen, setIsEnquireFormOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  return (
-    <div>
-      {/* Navbar */}
-      {/* <Navbar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} /> */}
+  // const toggleEnquireForm = () => {
+  //   setIsEnquireFormOpen(!isEnquireFormOpen);
+  // };
 
-      {/* Header Section */}
+  return (
+    <div className="overflow-x-hidden">
+      {/* Navbar */}
       <div className="bg-[#f0f2f4] min-h-screen flex flex-col items-center justify-center text-white px-3">
         <div className="mt-4 w-[95%]">
           <Navbar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
@@ -103,7 +110,7 @@ const Home = () => {
         </div>
 
         {/* Image */}
-        <div className="w-full h-64 md:h-96 md:px-5 ">
+        <div className="w-full h-64 md:h-96 md:px-5 overflow-hidden">
           <img className="rounded-3xl w-full h-full" src={ooze} alt="" />
         </div>
       </div>
@@ -114,30 +121,30 @@ const Home = () => {
           <img className="w-auto max-h-52 md:max-h-72" src={ash} alt="" />
         </div>
         <div className="w-full md:w-1/2 py-7 flex flex-col justify-center px-5 md:py-24 md:px-20 ">
-          <h2 className="gradient-text text-left md:text-left mb-4  text-[33px] font-semibold">
+          <h2 className="gradient-text text-left md:text-left mb-4 text-[33px] font-semibold">
             About Us
           </h2>
-          <p className="text-left md:text-left mb-4 text-black">
+          <p className="md:text-left mb-4 text-black text-justify">
             Are you ready to elevate your business to new heights? Look no
             further than auxzon Solutions for data-driven business insights
             tailored to your specific needs. auxzon can be your trusted partner
             to provide trends and strategies to help your business thrive in
             today's dynamic digital landscape.
           </p>
-          <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-custom-gradient items-center mt-4 hover:bg-red-500  text-white">
-            Read more
-          </button>
+          <Link to="/about">
+            <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-custom-gradient items-center mt-4 hover:bg-red-500 text-white">
+              Read more
+            </button>
+          </Link>
         </div>
       </div>
 
       {/* Video Section */}
       <div className="w-full flex flex-col py-4 justify-center items-center h-64 md:h-96 md:px-5">
-        <h1>Consult</h1>
-        <p>The Auxzon Way of Solving Business Problems</p>
         <video
-          className="w-[80%] md:w-[60%] h-full py-4"
+          className="w-[80%] md:w-[60%] py-4 custom-height"
           controls
-          autoplay
+          autoPlay
           loop
           muted
         >
@@ -147,15 +154,15 @@ const Home = () => {
       </div>
 
       {/* ---------------service------------------- */}
-      <div className="w-full h-auto py-5 px-5 border ">
+      <div className="w-full h-auto py-10 px-5 ">
         <div className="w-full h-32 flex flex-col justify-center items-center">
           <h1 className="text-3xl font-medium text-center">
-            <p className="gradient-text text-[33px]">Our Services</p>
-            <p>Special neural features for your Services</p>
+            <p className="gradient-text text-[33px] md:mt-5">Our Services</p>
+            <p className="md:mt-3">Special neural features for your Services</p>
           </h1>
         </div>
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4 p-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-10 p-8 md:py-10">
           {services.map((service, index) => (
             <div
               key={index}
@@ -186,8 +193,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* industries */}
-      {/* ------------------------------ */}
+      {/* Industries */}
       <div className="w-full h-32 flex justify-center items-center">
         <h1 className="text-3xl font-medium text-center md:text-left">
           <span className="block md:inline text-[33px]">
@@ -198,14 +204,104 @@ const Home = () => {
           </p>
         </h1>
       </div>
-      {/* ------------------------------- */}
+
       <div className="flex justify-center items-center md:py-10 ">
-        <img src={expertise} alt="" />
+        <img className="w-[600px] " src={hexagon} alt="" />
       </div>
-      <div>
-        <Footer />
-      </div>
-      {/* ---------------------------------- */}
+
+      {/* Enquire Button */}
+      {/* <button
+        className="fixed right-5 top-1/2 transform -translate-y-1/2 bg-custom-gradient text-white px-4 py-2 rounded-full hover:bg-red-500"
+        onClick={toggleEnquireForm}
+      >
+        Enquire
+      </button> */}
+
+      {/* Enquire Form Popup */}
+      {/* {isEnquireFormOpen && (
+        <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50">
+          <div className="bg-white p-6  rounded-lg shadow-lg relative">
+            <button
+              className="absolute top-4 right-4 text-2xl text-black"
+              onClick={toggleEnquireForm}
+            >
+              &times;
+            </button>
+            <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+            <form>
+              <div className="mb-4">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-gray-700"
+                >
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter Your Name"
+                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-700"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Your Email"
+                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-medium text-gray-700"
+                >
+                  Subject
+                </label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Enter Your Subject"
+                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Enter Your Message"
+                  className="mt-1 block w-full px-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="bg-custom-gradient w-full text-white py-2 px-4 rounded-md text-sm hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      )} */}
+      <Layout />
+
+      <Footer />
     </div>
   );
 };

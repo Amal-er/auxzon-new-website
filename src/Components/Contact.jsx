@@ -1,9 +1,55 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import Navbar from "./Navbar";
 import contactbg from "../assets/images/contactbg.webp";
 import Footer from "./Footer";
+import Layout from "./Layout";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log("Submitting form with data:", formData); // Debugging log
+
+    emailjs
+      .send(
+        "service_Auxzon", // Replace with your EmailJS service ID
+        "template_7vb69vg", // Replace with your EmailJS template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          to_email: "contact@auxzon.com", // Explicitly set the recipient email
+        },
+        "R6rizM8lpDLvtFWk7" // Replace with your EmailJS user ID
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Message sent successfully");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          alert("Error sending message");
+        }
+      );
+  };
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -24,7 +70,7 @@ const Contact = () => {
           ></div>
 
           {/* Who we are section */}
-          <div className="w-full flex flex-col md:flex-row justify-center items-center bg-white ">
+          <div className="w-full flex flex-col md:flex-row justify-center items-center bg-white">
             <div className="flex flex-col md:flex-row w-full md:px-10">
               <div className="w-full md:w-1/2 flex flex-col justify-center items-start px-6 md:px-0 mb-6 md:mb-0 leading-relaxed">
                 <p className="text-black font-bold uppercase">Get in Touch</p>
@@ -39,7 +85,7 @@ const Contact = () => {
                   Define your goals and identify areas where AI can add value to
                   your business
                 </p>
-                <form onSubmit="">
+                <form onSubmit={handleSubmit}>
                   <div className="mb-4">
                     <label
                       htmlFor="name"
@@ -52,8 +98,8 @@ const Contact = () => {
                       id="name"
                       name="name"
                       placeholder="Enter Your Name"
-                      value=""
-                      onChange=""
+                      value={formData.name}
+                      onChange={handleChange}
                       className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     />
                   </div>
@@ -69,8 +115,8 @@ const Contact = () => {
                       id="email"
                       name="email"
                       placeholder="Enter Your Email"
-                      value=""
-                      onChange=""
+                      value={formData.email}
+                      onChange={handleChange}
                       className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     />
                   </div>
@@ -86,8 +132,8 @@ const Contact = () => {
                       id="subject"
                       name="subject"
                       placeholder="Enter Your Subject"
-                      value=""
-                      onChange=""
+                      value={formData.subject}
+                      onChange={handleChange}
                       className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     />
                   </div>
@@ -103,8 +149,8 @@ const Contact = () => {
                       name="message"
                       rows="4"
                       placeholder="Enter Your Message"
-                      value=""
-                      onChange=""
+                      value={formData.message}
+                      onChange={handleChange}
                       className="mt-1 block w-full px-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     ></textarea>
                   </div>
@@ -120,6 +166,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Layout />
       <Footer />
     </>
   );

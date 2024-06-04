@@ -1,16 +1,17 @@
 import React from "react";
 // import auxzon from "../assets/images/aUXZON.png";
-import company from "../icons/auxzon-logo.png";
+// import company from "../icons/auxzon-logo.png";
+import company1 from "../assets/images/company1.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { IoIosMail, IoMdCall } from "react-icons/io";
 
 function Footer() {
   return (
-    <footer className="bg-[#1f1f1f] text-white py-8 px-5 flex justify-center items-center">
+    <footer className="bg-[#1f1f1f] text-white py-12 px-5 flex justify-center items-center">
       <div className="container mx-auto flex flex-wrap justify-start items-start ">
         <div className="w-full sm:w-1/4 flex flex-col items-start mb-8 sm:mb-0 text-left ">
-          <img className="w-36  " src={company} alt="Company Logo" />
-          <p className="text-white text-sm">
+          <img className="w-36  " src={company1} alt="Company Logo" />
+          <p className="text-white text-sm py-5">
             Elevate your business with Auxzon's tailored data-driven insights.
             Thrive with our trends and strategies in the digital landscape.
           </p>

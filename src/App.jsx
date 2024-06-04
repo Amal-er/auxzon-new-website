@@ -12,6 +12,10 @@ import AnalytixMarketing from "./Components/AnalytixMarketing";
 import SoftWareSolutions from "./Components/SoftwareSolutions";
 import BusinessConsulting from "./Components/BusinessConsulting";
 import DataSolutions from "./Components/DataSolutions";
+import BusinessDevelopmentExecutive from "./Components/BusinessDevelopmentExecutive";
+import Backend from "./Components/Backend";
+import SalesManager from "./Components/SalesManager";
+import DataAnalyst from "./Components/DataAnalyst";
 
 function App() {
   return (
@@ -31,6 +35,10 @@ function App() {
           <Route path="/softwaresolutions" element={<SoftWareSolutions />} />
           <Route path="/businessconsulting" element={<BusinessConsulting />} />
           <Route path="/datasolutions" element={<DataSolutions />} />
+          <Route path="/bde" element={<BusinessDevelopmentExecutive />} />
+          <Route path="/backend" element={<Backend />} />
+          <Route path="/salesmanager" element={<SalesManager />} />
+          <Route path="/data-analyst" element={<DataAnalyst />} />
         </Routes>
         {/* <Footer /> */}
       </div>
