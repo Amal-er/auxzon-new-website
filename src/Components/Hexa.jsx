@@ -56,8 +56,7 @@ function Hexa() {
                 needs.
               </p>
               <p className="text-white">
-                Home |
-                <span className="text-purple-500 md:pl-2"> Auxzon Hexa</span>
+                Home |<span className="text-white md:pl-2"> Auxzon Hexa</span>
               </p>
             </div>
           </div>

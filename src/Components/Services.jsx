@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import servicebg from "../assets/services.webp";
+// import servicebg from "../assets/services.webp";
+import service2 from "../assets/images/services2.webp";
 import Footer from "./Footer";
 import decompose from "../assets/images/decompose.webp";
 // --------------------------------------
@@ -17,26 +18,30 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: "Analytix Marketing",
+      title: " Marketing",
       icon: analytix,
-      url: "/analytixmarketing",
+      para: " Our comprehensive marketing solutions cover analytic, digital, performance, and content marketing. ",
+      url: "/marketing",
     },
     {
       id: 2,
       title: "Software Solution",
       icon: software,
+      para: " Our software solutions are designed to streamline operations and enhance business productivity.",
       url: "/softwaresolutions",
     },
     {
       id: 3,
       title: "Business Consulting",
       icon: bcsolu,
+      para: " Our specialized Amazon services include PPC management, product listing optimization, review and feedback management,",
       url: "/businessconsulting",
     },
     {
       id: 4,
       title: "Data Solutions",
       icon: datasolu,
+      para: "In the age of big data, making sense of vast amounts of information is crucial for business success.",
       url: "/datasolutions",
     },
   ];
@@ -55,7 +60,7 @@ const Services = () => {
           <div
             className="relative flex flex-col justify-left items-left bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-10 "
             style={{
-              backgroundImage: `url(${decompose})`,
+              backgroundImage: `url(${service2})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
@@ -70,7 +75,7 @@ const Services = () => {
                 insights tailored to your specific needs.
               </p>
               <p className="text-white">
-                Home |<span className="text-purple-500 md:pl-2"> Services</span>
+                Home |<span className="text-white md:pl-2"> Services</span>
               </p>
             </div>
           </div>
@@ -81,21 +86,23 @@ const Services = () => {
                 What we do
               </h1>
               <p className="text-black text-left text-justify mt-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
-                <br /> It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more
-                recently with desktop publishing software like Aldus PageMaker
-                including versions of Lorem Ipsum. It is a long established fact
-                that a reader will be distracted by the readable content of a
-                page when looking at its layout. The point of using Lorem Ipsum
-                is that it has a more-or-less normal distribution of letters, as
-                opposed to using 'Content here, content here', making it look
-                like readable.
+                At Auxzon Solutions, we offer a comprehensive range of services
+                designed to help businesses thrive in the digital age. Our
+                expertise spans across four key areas: Amazon Seller Services,
+                Marketing Services, Data Solutions, and Software Solutions.
+                Here’s how we can help your business succeed:Our priority is to
+                cater to the diverse needs of our clients with a comprehensive
+                suite of services. From Marketing service, where we harness the
+                power of data to optimize marketing strategies, to our Data
+                Solutions, which unlock the full potential of data through
+                advanced marketing and visualization, we provide end-to-end
+                solutions that drive tangible results. <br /> Our Software
+                Solutions encompass custom software development, website, and
+                app development, while our Business Consulting services offer
+                strategic guidance and support to help businesses navigate
+                complex challenges and capitalize on emerging opportunities.
+                With a commitment to excellence and innovation, we aim to be
+                your trusted partner in achieving your business goals.
               </p>
             </div>
           </div>
@@ -131,18 +138,12 @@ const Services = () => {
                 />
                 <div>
                   <h1 className="text-xl font-bold">{service.title}</h1>
-                  <p>
-                    We can understand the consumers better than ever before with
-                    {` ${service.title}.`}
-                  </p>
+                  <p>{` ${service.para}.`}</p>
                 </div>
               </div>
-              <Link
-                to={service.url}
-                className="bg-custom-gradient w-36 h-10 text-white px-2 py-1 mt-2 ml-16 rounded-full flex items-center justify-center"
-              >
+              <button className="bg-custom-gradient w-36 h-10 text-white px-2 py-1 mt-2 ml-16 rounded-full flex items-center justify-center">
                 Read more
-              </Link>
+              </button>
             </div>
           ))}
         </div>

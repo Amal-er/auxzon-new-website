@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import Navbar from "./Navbar";
-import contactbg from "../assets/images/contactbg.webp";
+import contactbg from "../assets/images/contact2.webp";
 import Footer from "./Footer";
 import Layout from "./Layout";
 
@@ -65,15 +65,27 @@ const Contact = () => {
         <div className="w-full flex flex-col px-2 py-6 md:px-8">
           {/* Header Section */}
           <div
-            className="flex flex-col justify-center items-center bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-6 md:mb-10"
-            style={{ backgroundImage: `url(${contactbg})` }}
-          ></div>
-          <p
-            className="text-black
-          "
+            className="relative flex flex-col justify-left items-left bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-10 "
+            style={{
+              backgroundImage: `url(${contactbg})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
-            Home |<span className="text-purple-500 md:pl-2"> contact</span>
-          </p>
+            <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl"></div>
+            <div className="relative p-5 flex flex-col justify-left items-left  md:px-12">
+              <h1 className="text-[33px] font-bold text-white">Contact</h1>
+
+              <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
+                Are you ready to elevate your business to new heights? Look no
+                further than auxzon Solutions <br /> for data-driven business
+                insights tailored to your specific needs.
+              </p>
+              <p className="text-white">
+                Home |<span className="text-white md:pl-2"> Contact</span>
+              </p>
+            </div>
+          </div>
           {/* Who we are section */}
           <div className="w-full flex flex-col md:flex-row justify-center items-center bg-white">
             <div className="flex flex-col md:flex-row w-full md:px-10">

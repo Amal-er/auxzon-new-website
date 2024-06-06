@@ -25,7 +25,7 @@ const SoftwareSolutions = () => {
         </div>
         <div className="bg-[#f0f2f4] min-h-screen flex flex-col px-2 items-center text-white py-6 md:px-8">
           <div
-            className="flex flex-col  justify-center items-center bg-cover bg-center w-full h-56 md:h-[499px] rounded-xl mb-10"
+            className="flex flex-col  justify-center items-center bg-cover bg-center w-full h-56 md:h-[260px]  rounded-xl mb-10"
             style={{ backgroundImage: `url(${aboutbg})` }}
           >
             <h1 className="text-[33px] font-bold text-white">

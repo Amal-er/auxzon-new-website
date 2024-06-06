@@ -20,26 +20,30 @@ import auxzonhexa from "../assets/images/auxzonhexa.png";
 const services = [
   {
     id: 1,
-    title: "Analytix Marketing",
+    title: "Marketing Services",
+    para: " Our comprehensive marketing solutions cover analytic, digital, performance, and content marketing. ",
     icon: analytix,
-    url: "/analytixmarketing",
+    url: "/marketing",
   },
   {
     id: 2,
-    title: "Software Solution",
+    title: "Software Solutions",
+    para: " Our software solutions are designed to streamline operations and enhance business productivity.",
     icon: software,
     url: "/softwaresolutions",
   },
   {
     id: 3,
-    title: "Business Consulting",
+    title: "Amazone Seller Service",
     icon: bcsolu,
+    para: " Our specialized Amazon services include PPC management, product listing optimization, review and feedback management,",
     url: "/businessconsulting",
   },
   {
     id: 4,
     title: "Data Solutions",
     icon: datasolu,
+    para: "In the age of big data, making sense of vast amounts of information is crucial for business success.",
     url: "/datasolutions",
   },
 ];
@@ -67,9 +71,9 @@ const Home = () => {
 
         <div className="w-full h-auto flex flex-col md:flex-row mt-14">
           <div className="w-full md:w-1/2 md:px-5 py-10  flex justify-start ">
-            <h1 className="gradient-text text-4xl md:text-7xl px-10 ">
+            <h1 className="gradient-text text-5xl md:text-7xl px-4 leading-relaxed font-semibold  ">
               <Typewriter
-                words={["Harness the power of Artificial intelligence"]}
+                words={["Transforming Ideas into Digital Solutions"]}
                 loop={5}
                 cursor
                 cursorStyle="_"
@@ -175,10 +179,7 @@ const Home = () => {
                     {service.title}
                   </h1>
 
-                  <p>
-                    We can understand the consumers better than ever before with
-                    {` ${service.title}.`}
-                  </p>
+                  <p>{` ${service.para}.`}</p>
                 </div>
               </div>
               <Link

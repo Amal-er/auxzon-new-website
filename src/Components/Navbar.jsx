@@ -18,37 +18,37 @@ function Navbar({ isMenuOpen, toggleMenu }) {
         <div className="hidden sm:flex sm:items-center gap-3">
           <Link
             to="/"
-            className="text-black hover:text-gray-200 transition duration-300 mx-4"
+            className="text-black hover:text-purple-500 transition duration-300 mx-4"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="text-black hover:text-gray-200 transition duration-300 mx-4"
+            className="text-black hover:text-purple-500 transition duration-300 mx-4"
           >
             About us
           </Link>
           <Link
             to="/services"
-            className="text-black hover:text-gray-200 transition duration-300 mx-4"
+            className="text-black hover:text-purple-500 transition duration-300 mx-4"
           >
             Our Services
           </Link>
           <Link
             to="/hexa"
-            className="text-black hover:text-gray-200 transition duration-300 mx-4"
+            className="text-black hover:text-purple-500 transition duration-300 mx-4"
           >
             Auxzon Hexa
           </Link>
           <Link
             to="/careers"
-            className="text-black hover:text-gray-200 transition duration-300 mx-4"
+            className="text-black hover:text-purple-500 transition duration-300 mx-4"
           >
             Careers
           </Link>
           <Link
             to="/contact"
-            className="text-black hover:text-gray-200 transition duration-300 mx-4"
+            className="text-black hover:text-purple-500 transition duration-300 mx-4"
           >
             Contact
           </Link>

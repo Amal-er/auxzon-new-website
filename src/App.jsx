@@ -8,7 +8,7 @@ import Career from "./Components/Career";
 import Contact from "./Components/Contact";
 // import Navbar from "./components/Navbar";
 // import Footer from "./Components/Footer";
-import AnalytixMarketing from "./Components/AnalytixMarketing";
+import Marketing from "./Components/Marketing";
 import SoftWareSolutions from "./Components/SoftwareSolutions";
 import BusinessConsulting from "./Components/BusinessConsulting";
 import DataSolutions from "./Components/DataSolutions";
@@ -31,7 +31,7 @@ function App() {
           <Route path="/hexa" element={<Hexa />} />
           <Route path="/careers" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/analytixmarketing" element={<AnalytixMarketing />} />
+          <Route path="/marketing" element={<Marketing />} />
           <Route path="/softwaresolutions" element={<SoftWareSolutions />} />
           <Route path="/businessconsulting" element={<BusinessConsulting />} />
           <Route path="/datasolutions" element={<DataSolutions />} />

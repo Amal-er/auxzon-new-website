@@ -68,7 +68,7 @@ const Career = () => {
                 insights tailored to your specific needs.
               </p>
               <p className="text-white">
-                Home |<span className="text-purple-500 md:pl-2"> Career</span>
+                Home |<span className="text-white md:pl-2"> Career</span>
               </p>
             </div>
           </div>
@@ -76,24 +76,19 @@ const Career = () => {
           <div className="w-full flex flex-col md:flex-row justify-start items-start md:mb-20 px-3 md:px-5">
             <div className="w-full">
               <h1 className="gradient-text text-black font-bold text-2xl md:text-[33px] md:py-5 text-left">
-                Careers
+                Join the Team Transforming the Digital Landscape
               </h1>
               <p className="text-black text-left text-justify mt-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
-                <br /> It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more
-                recently with desktop publishing software like Aldus PageMaker
-                including versions of Lorem Ipsum. It is a long established fact
-                that a reader will be distracted by the readable content of a
-                page when looking at its layout. The point of using Lorem Ipsum
-                is that it has a more-or-less normal distribution of letters, as
-                opposed to using 'Content here, content here', making it look
-                like readable.
+                At Auxzon Solutions, we believe that our people are our greatest
+                asset. We are a team of passionate professionals committed to
+                innovation, excellence, and customer-centric solutions. If
+                you’re looking for a dynamic and inclusive workplace where you
+                can grow your career and make a real impact, you’ve come to the
+                right place. As we continue to grow and innovate, we invite you
+                to join us on our journey. Whether you're a potential client, a
+                business partner, or a future team member, we look forward to
+                connecting with you and exploring how we can work together to
+                create something extraordinary.
               </p>
             </div>
           </div>
@@ -123,14 +118,11 @@ const Career = () => {
                     <div className="mt-4 md:mt-0 md:text-right w-full md:w-auto">
                       <span className="text-lg font-semibold">
                         {job.salary}
-                      </span>
-                      <Link to={job.url}>
-                        {" "}
-                        {/* Use Link component and set the 'to' attribute to the job URL */}
-                        <button className="w-32 h-12  bg-transparent text-blue-500 border border-blue-500 rounded-full text-sm hover:bg-blue-500 hover:text-white transition">
-                          Apply Now
-                        </button>
-                      </Link>
+                      </span>{" "}
+                      {/* Use Link component and set the 'to' attribute to the job URL */}
+                      <button className="w-32 h-12  bg-transparent text-blue-500 border border-blue-500 rounded-full text-sm hover:bg-blue-500 hover:text-white transition">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
                 ))}

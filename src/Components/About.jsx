@@ -53,7 +53,7 @@ const About = () => {
               <p className="text-white md:pr-10">
                 Home |{" "}
                 <span
-                  className="text-purple-500 md:pl-2
+                  className="text-white md:pl-2
                 "
                 >
                   About{" "}
@@ -69,22 +69,21 @@ const About = () => {
                   Who we are ...?
                 </h1>
                 <p className="text-black text-justify">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.It is a
-                  long established fact that a reader will be distracted by the
-                  readable content of a page when looking at its layout. The
-                  point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable
+                  At Auxzon Solutions, we are a team of passionate professionals
+                  committed to delivering top-notch solutions tailored to your
+                  business needs. Our journey began with a vision to transform
+                  the digital landscape, and today, we stand as a dynamic
+                  startup at the forefront of technology innovation. Auxzon
+                  Solutions has grown into a hub of creativity and technological
+                  prowess, continually pushing the boundaries of what's possible
+                  in the tech industry. We take pride in our diverse and
+                  talented team, which comprises experts from various domains,
+                  including software development, data science, marketing, and
+                  business consulting. This multidisciplinary approach allows us
+                  to address complex challenges with innovative solutions,
+                  ensuring our clients receive the best possible outcomes.
                 </p>
+
                 <div className="custom-gradient w-48 h-6 py-5 mt-5 flex justify-center items-center rounded-md ">
                   <button
                     className="text-white flex justify-center items-center"
