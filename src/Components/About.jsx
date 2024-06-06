@@ -34,17 +34,32 @@ const About = () => {
         </div>
         <div className="bg-[#f0f2f4] min-h-screen flex flex-col px-2 items-center text-white py-6 md:px-8">
           <div
-            className="flex flex-col  justify-center items-center bg-cover bg-center w-full h-56 md:h-[499px] rounded-xl mb-10"
-            style={{ backgroundImage: `url(${aboutbg})` }}
+            className="relative flex flex-col justify-left items-left bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-10 "
+            style={{
+              backgroundImage: `url(${aboutbg})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
-            <h1 className="text-[33px] font-bold text-white">About Us</h1>
-            <p className="text-center text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide ">
-              Are you ready to elevate your business to new heights? Look no
-              further than auxzon Solutions <br /> for data-driven business
-              insights tailored to your specific needs. auxzon can be your
-              trusted partner to <br /> provide trends and strategies to help
-              your business thrive in today's dynamic digital landscape.
-            </p>
+            <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl"></div>
+            <div className="relative p-5 flex flex-col justify-left md:px-12 items-left">
+              <h1 className="text-[33px] font-bold text-white">About Us</h1>
+
+              <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
+                Are you ready to elevate your business to new heights? Look no
+                further than auxzon Solutions <br /> for data-driven business
+                insights tailored to your specific needs.
+              </p>
+              <p className="text-white md:pr-10">
+                Home |{" "}
+                <span
+                  className="text-purple-500 md:pl-2
+                "
+                >
+                  About{" "}
+                </span>{" "}
+              </p>
+            </div>
           </div>
 
           <div className="w-full h-auto mt-6 flex flex-col md:flex-row justify-center items-center  md:px-5">
@@ -96,7 +111,7 @@ const About = () => {
       </div>
 
       <div
-        className=" h-auto px-5 py-5  flex rounded-lg md:h-72 flex-col md:flex-row gap-10 justify-center items-center shadow-lg mb-10 md:py-[200px]  md:px-10  "
+        className=" h-auto px-5 py-5  flex rounded-lg md:h-72 flex-col md:flex-row gap-10 justify-center items-center shadow-lg mb-10 md:py-[200px]  md:px-12  "
         style={{ backgroundImage: `url(${backgd})` }}
       >
         <div className="flex flex-col md:flex-row items-center text-center w-full p-4 rounded-lg bg-white shadow-lg flex-grow ">

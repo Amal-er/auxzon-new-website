@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import companyname from "../assets/images/companyname.png";
 
 function Navbar({ isMenuOpen, toggleMenu }) {
   return (
-    <div className="w-full bg-white rounded-xl">
-      <div className="container mx-auto w-[90%] flex justify-between items-center p-4 sm:p-6 lg:p-8">
+    <div className="w-full bg-white rounded-xl md:py-3 py-3">
+      <div className="container  w-[100%] flex justify-between items-center p-4 sm:p-6 lg:p-8 ">
         <Link
           to="/"
-          className="flex items-center mr-4 text-white font-bold text-xl"
+          className="flex items-center  text-white font-bold text-xl"
         >
-          <img className="w-10" src={logo} alt="Logo" />
+          <img className="w-[150px]" src={companyname} alt="Logo" />
         </Link>
 
         {/* Desktop Links */}
@@ -82,7 +83,7 @@ function Navbar({ isMenuOpen, toggleMenu }) {
       >
         <button
           onClick={toggleMenu}
-          className="absolute top-4 right-4 text-white focus:outline-none"
+          className="absolute top-4 right-4 text-black focus:outline-none"
         >
           <svg
             className="h-8 w-8"
@@ -98,7 +99,7 @@ function Navbar({ isMenuOpen, toggleMenu }) {
             />
           </svg>
         </button>
-        <div className="navbar-links flex flex-col items-left px-5 space-y-4 gap-3 py-6">
+        <div className="navbar-links flex flex-col items-start px-5 space-y-4 py-6">
           <Link to="/" onClick={toggleMenu} className="text-black">
             Home
           </Link>

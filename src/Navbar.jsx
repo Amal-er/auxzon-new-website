@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-
+import companyname from "./assets/images/companyname.png";
 function Navbar({ isMenuOpen, toggleMenu }) {
   return (
     <div className="w-full h-16 p-4 bg-transparent">

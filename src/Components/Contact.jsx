@@ -65,10 +65,15 @@ const Contact = () => {
         <div className="w-full flex flex-col px-2 py-6 md:px-8">
           {/* Header Section */}
           <div
-            className="flex flex-col justify-center items-center bg-cover bg-center w-full h-56 md:h-[499px] rounded-xl mb-6 md:mb-10"
+            className="flex flex-col justify-center items-center bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-6 md:mb-10"
             style={{ backgroundImage: `url(${contactbg})` }}
           ></div>
-
+          <p
+            className="text-black
+          "
+          >
+            Home |<span className="text-purple-500 md:pl-2"> contact</span>
+          </p>
           {/* Who we are section */}
           <div className="w-full flex flex-col md:flex-row justify-center items-center bg-white">
             <div className="flex flex-col md:flex-row w-full md:px-10">

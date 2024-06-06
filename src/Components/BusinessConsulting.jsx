@@ -34,9 +34,7 @@ const BusinessConsulting = () => {
             <p className="text-center text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide ">
               Are you ready to elevate your business to new heights? Look no
               further than auxzon Solutions <br /> for data-driven business
-              insights tailored to your specific needs. auxzon can be your
-              trusted partner to <br /> provide trends and strategies to help
-              your business thrive in today's dynamic digital landscape.
+              insights tailored to your specific needs.
             </p>
           </div>
 

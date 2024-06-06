@@ -51,17 +51,31 @@ const Career = () => {
         </div>
         <div className="bg-[#f0f2f4] md:w-[100%] px-5 md:px-8 flex flex-col items-center text-white py-6">
           <div
-            className="flex flex-col justify-center items-center bg-cover bg-center w-full h-56 md:h-[499px] rounded-xl mb-10"
-            style={{ backgroundImage: `url(${career1})` }}
+            className="relative flex flex-col justify-left items-left bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-10"
+            style={{
+              backgroundImage: `url(${career1})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
-            <h1 className="text-4xl md:text-[87px] font-extrabold text-white">
-              CAREER
-            </h1>
+            <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl "></div>
+            <div className="relative p-5 flex flex-col justify-center items-left md:px-12">
+              <h1 className="text-[33px] font-bold text-white">Career</h1>
+
+              <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
+                Are you ready to elevate your business to new heights? Look no
+                further than auxzon Solutions <br /> for data-driven business
+                insights tailored to your specific needs.
+              </p>
+              <p className="text-white">
+                Home |<span className="text-purple-500 md:pl-2"> Career</span>
+              </p>
+            </div>
           </div>
 
           <div className="w-full flex flex-col md:flex-row justify-start items-start md:mb-20 px-3 md:px-5">
             <div className="w-full">
-              <h1 className="gradient-text text-black font-bold text-2xl md:text-[33px] text-left">
+              <h1 className="gradient-text text-black font-bold text-2xl md:text-[33px] md:py-5 text-left">
                 What we do
               </h1>
               <p className="text-black text-left text-justify mt-4">

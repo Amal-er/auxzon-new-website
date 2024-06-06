@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         className="inset-y-0 fixed w-6 h-36 right-1 top-1/2 transform -translate-y-1/2 bg-custom-gradient text-white px-4 md:px-6 py-2 rounded-lg hover:bg-red-500 flex justify-center items-center"
         onClick={toggleEnquireForm}
       >
-        <p className="transform -rotate-90 origin-center">Enquire Now</p>
+        <p className="transform -rotate-90 origin-center ">Enquire Now</p>
       </button>
       {isEnquireFormOpen && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50">
