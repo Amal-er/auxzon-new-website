@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import servicebg from "../assets/services.webp";
 import Footer from "./Footer";
-import decompose from "../assets/images/decompose.webp";
+import abstract from "../assets/images/abstract.webp";
 import auxzonhexa from "../assets/images/auxzonhexa.png";
 import hexabg from "../assets/images/hexabg.webp";
 // --------------------------------------
 import hexagon from "../assets/images/hexagon.png";
 // ----------------------------
 import { Link } from "react-router-dom";
+
 // ---------------------------------------
 import one from "../icons/01.png";
 import two from "../icons/02.png";
@@ -37,7 +38,7 @@ function Hexa() {
           <div
             className="relative flex flex-col justify-left items-left bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-10"
             style={{
-              backgroundImage: `url(${hexabg})`,
+              backgroundImage: `url(${abstract})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

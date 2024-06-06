@@ -13,10 +13,10 @@ const Layout = ({ children }) => {
 
     emailjs
       .sendForm(
-        "service_Auxzon", // Replace with your service ID
-        "template_7vb69vg", // Replace with your template ID
+        "service_5cxyivh", // Replace with your service ID
+        "template_renwa6e", // Replace with your template ID
         e.target,
-        "R6rizM8lpDLvtFWk7" // Replace with your user ID
+        "TSUsvis_8cY4JVhOP" // Replace with your user ID
       )
       .then(
         (result) => {
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
     <div className="overflow-x-hidden">
       <div>{children}</div>
       <button
-        className="inset-y-0 fixed w-6 h-36 right-1 top-1/2 transform -translate-y-1/2 bg-custom-gradient text-white px-4 md:px-6 py-2 rounded-lg hover:bg-red-500 flex justify-center items-center"
+        className="inset-y-0 fixed w-6 h-36 right-1 top-1/2 transform -translate-y-1/2 bg-custom-gradient text-white px-4 md:px-6 py-2 rounded-lg hover:bg-red-500 flex justify-center items-center "
         onClick={toggleEnquireForm}
       >
         <p className="transform -rotate-90 origin-center ">Enquire Now</p>
@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
         <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50">
           <div className="bg-[#f0f2f4] w-3/4 p-6 rounded-xl shadow-lg relative md:w-1/2 md:p-20 md:border-t-8 border-purple">
             <button
-              className="absolute top-4 right-4 text-2xl text-black"
+              className="absolute top-4  right-4 text-2xl text-black"
               onClick={toggleEnquireForm}
             >
               &times;

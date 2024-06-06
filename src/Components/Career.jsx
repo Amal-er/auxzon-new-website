@@ -76,7 +76,7 @@ const Career = () => {
           <div className="w-full flex flex-col md:flex-row justify-start items-start md:mb-20 px-3 md:px-5">
             <div className="w-full">
               <h1 className="gradient-text text-black font-bold text-2xl md:text-[33px] md:py-5 text-left">
-                What we do
+                Careers
               </h1>
               <p className="text-black text-left text-justify mt-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -3,7 +3,8 @@ import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import ooze from "../assets/rep.webp";
 import ash from "../assets/images/ash.png";
-import auxzonv1 from "../video/auxzonv1.mp4";
+import auxzonvedio from "../video/auxzonvedio.mp4";
+
 import bcsolu from "../assets/images/bcsolu.png";
 import datasolu from "../assets/images/datasolu.png";
 import analytix from "../assets/images/analytix.png";
@@ -84,9 +85,11 @@ const Home = () => {
               transform your data into a strategic asset for sustainable growth
               and innovation.
             </p>
-            <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-custom-gradient items-center mt-4 hover:bg-red-500 ">
-              Discover
-            </button>
+            <Link to="/services">
+              <button className="w-36 h-12 rounded-full flex py-2 justify-center bg-custom-gradient items-center mt-4 hover:bg-red-500 ">
+                Discover
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -142,7 +145,7 @@ const Home = () => {
           loop
           muted
         >
-          <source src={auxzonv1} type="video/mp4" />
+          <source src={auxzonvedio} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

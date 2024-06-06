@@ -54,7 +54,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="/career"
+                  href="/careers"
                   className="text-white text-sm hover:text-gray-400"
                 >
                   Careers
@@ -96,22 +96,34 @@ function Footer() {
           <p className="mb-4">Follow Us on</p>
           <ul className="flex">
             <li className="mr-4 mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a
+                href="https://www.facebook.com/auxzon"
+                className="hover:text-gray-400"
+              >
                 <FaFacebook size={25} />
               </a>
             </li>
             <li className="mr-4 mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a
+                href="https://www.instagram.com/auxzons/?fbclid=IwAR1kcfqM4oEDtv1ChPL8uf_HEhZdCNW-4dQVF05TCcYHCDzIaw9FfGkXGJY"
+                className="hover:text-gray-400"
+              >
                 <FaInstagram size={25} />
               </a>
             </li>
             <li className="mr-4 mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a
+                href="https://www.linkedin.com/company/102232019/admin/feed/posts/"
+                className="hover:text-gray-400"
+              >
                 <FaLinkedin size={25} />
               </a>
             </li>
             <li className="mr-4 mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a
+                href="https://youtube.com/shorts/LLlf11iI04g?si=jen4nlz9fM-s-uin"
+                className="hover:text-gray-400"
+              >
                 <FaYoutube size={25} />
               </a>
             </li>
