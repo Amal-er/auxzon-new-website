@@ -40,33 +40,27 @@ const DataSolutions = () => {
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
               <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
                 <h1 className="gradient-text text-black font-bold text-[33px]">
-                  Who we are ...?
+                  Data Solutions
                 </h1>
                 <p className="text-black text-justify">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum. It is
-                  a long established fact that a reader will be distracted by
-                  the readable content <br /> of a page when looking at its
-                  layout. The point of using Lorem Ipsum is that it has a
-                  more-or-less normal distribution of letters, as opposed to
-                  using 'Content here, content here', making it look like
-                  readablehvbshjdbv It is a long established fact that a reader
-                  will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that
-                  it has a more-or-less normal distribution of letters, as
-                  opposed to using 'Content here, content here', making it look
-                  like readable English. typesetting industry. Lorem Ipsum has
-                  been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  to make a type
+                  In today’s data-driven world, making sense of vast amounts of
+                  information is crucial for business success. Our data
+                  solutions are designed to unlock the full potential of your
+                  data:
+                  <br />
+                  •⁠ ⁠*Machine Learning:* Implement intelligent algorithms that
+                  learn from data to make predictions and drive business
+                  insights. Our machine learning solutions help you automate
+                  processes and make data-driven decisions.
+                  <br /> •⁠ ⁠*Data Visualization:* Transform complex data into
+                  visually compelling and easy-to-understand insights. We create
+                  interactive dashboards and visualizations that enable you to
+                  see trends and make informed decisions.
+                  <br /> •⁠ ⁠*Data Analysis:* Our comprehensive data analysis
+                  services help you uncover hidden patterns, correlations, and
+                  insights within your data. We provide actionable
+                  recommendations to support strategic planning and
+                  decision-making.
                 </p>
               </div>
 
@@ -78,7 +72,7 @@ const DataSolutions = () => {
           </div>
           <span className="w-full text-black md:max-w-max md:px-5 px-6 text-justify">
             {" "}
-            five centuries, but also the leap into electronic typesetting,
+            {/* five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
@@ -102,7 +96,7 @@ const DataSolutions = () => {
             established fact that a reader will be distracted by the readable
             content of a page when looking at its layout. The point of using
             Lorem Ipsum is that it has a more-or-less normal distribution of
-            five centuries, but also the leap into electronic typesetting,
+            five centuries, but also the leap into electronic typesetting, */}
           </span>
           <Layout />
         </div>

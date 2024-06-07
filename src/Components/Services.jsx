@@ -18,21 +18,21 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: " Marketing",
-      icon: analytix,
+      title: "Marketing Services",
       para: " Our comprehensive marketing solutions cover analytic, digital, performance, and content marketing. ",
+      icon: analytix,
       url: "/marketing",
     },
     {
       id: 2,
-      title: "Software Solution",
-      icon: software,
+      title: "Software Solutions",
       para: " Our software solutions are designed to streamline operations and enhance business productivity.",
+      icon: software,
       url: "/softwaresolutions",
     },
     {
       id: 3,
-      title: "Business Consulting",
+      title: "Ecommerce Business Solutions",
       icon: bcsolu,
       para: " Our specialized Amazon services include PPC management, product listing optimization, review and feedback management,",
       url: "/businessconsulting",
@@ -116,34 +116,40 @@ const Services = () => {
 
         {/* ---------- */}
       </div>
-      <div className="w-full h-auto py-5 md:mt-10 px-5 md:mb-16  ">
+      <div className="w-full h-auto py-10 px-5">
         <div className="w-full h-32 flex flex-col justify-center items-center">
           <h1 className="text-3xl font-medium text-center">
-            <p className="gradient-text text-[33px]">Our Services</p>
-            <p className="md:py-3">Special neural features for your Services</p>
+            <p className="gradient-text text-[33px] md:mt-20">Our Services</p>
+            <p className="md:mt-3">Special neural features for your Services</p>
           </h1>
         </div>
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-8 md:px-8  p-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-10 p-8 md:py-10 md:mt-10 ">
           {services.map((service, index) => (
             <div
               key={index}
-              className={`p-4 flex flex-col justify-between shadow-lg`}
+              className={`p-4 flex flex-col justify-between shadow-lg zoom-effect`}
             >
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-4 ">
                 <img
                   src={service.icon}
                   alt={`${service.title} Icon`}
                   className="w-12 h-12"
                 />
                 <div>
-                  <h1 className="text-xl font-bold">{service.title}</h1>
+                  <h1 className="text-xl font-bold hover:text-violet-500">
+                    {service.title}
+                  </h1>
+
                   <p>{` ${service.para}.`}</p>
                 </div>
               </div>
-              <button className="bg-custom-gradient w-36 h-10 text-white px-2 py-1 mt-2 ml-16 rounded-full flex items-center justify-center">
+              <Link
+                to={service.url}
+                className="bg-custom-gradient w-36 h-10 text-white px-2 py-1 mt-2 ml-16 rounded-full flex items-center justify-center"
+              >
                 Read more
-              </button>
+              </Link>
             </div>
           ))}
         </div>

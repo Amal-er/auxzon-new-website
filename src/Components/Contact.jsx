@@ -118,6 +118,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                      required
                     />
                   </div>
                   <div className="mb-4">
@@ -135,6 +136,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                      required
                     />
                   </div>
                   <div className="mb-4">
@@ -152,6 +154,7 @@ const Contact = () => {
                       value={formData.subject}
                       onChange={handleChange}
                       className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                      required
                     />
                   </div>
                   <div className="mb-4">
@@ -169,6 +172,7 @@ const Contact = () => {
                       value={formData.message}
                       onChange={handleChange}
                       className="mt-1 block w-full px-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                      required
                     ></textarea>
                   </div>
                   <button

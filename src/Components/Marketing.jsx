@@ -42,33 +42,27 @@ const AnalytixMarketing = () => {
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
               <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
                 <h1 className="gradient-text text-black font-bold text-[33px]">
-                  Who we are ...?
+                  Marketing Services
                 </h1>
                 <p className="text-black text-justify">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum. It is
-                  a long established fact that a reader will be distracted by
-                  the readable content <br /> of a page when looking at its
-                  layout. The point of using Lorem Ipsum is that it has a
-                  more-or-less normal distribution of letters, as opposed to
-                  using 'Content here, content here', making it look like
-                  readablehvbshjdbv It is a long established fact that a reader
-                  will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that
-                  it has a more-or-less normal distribution of letters, as
-                  opposed to using 'Content here, content here', making it look
-                  like readable English. typesetting industry. Lorem Ipsum has
-                  been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  to make a type
+                  Our marketing services are designed to drive growth and
+                  engagement across various digital channels. We provide a
+                  holistic approach to marketing that ensures your efforts are
+                  targeted, effective, and yield measurable results:
+                  <br />
+                  •⁠ ⁠*Analytic Marketing:* Utilize data-driven strategies to
+                  optimize your marketing campaigns, ensuring they are focused
+                  on the right audience and delivering the best ROI. <br /> •⁠
+                  ⁠*Digital Marketing:* From SEO and SEM to social media and
+                  email marketing, our digital marketing services help you reach
+                  and engage your target audience online.
+                  <br /> •⁠ ⁠*Performance Marketing:* Focus on achieving
+                  measurable results with our performance marketing services,
+                  designed to maximize conversions and drive business growth.
+                  <br /> •⁠ ⁠*Content Marketing:* Create and distribute valuable
+                  content that attracts, engages, and retains your target
+                  audience. We help you build a strong content strategy that
+                  supports your business goals.
                 </p>
               </div>
 
@@ -80,7 +74,7 @@ const AnalytixMarketing = () => {
           </div>
           <span className="w-full text-black md:max-w-max md:px-5 px-6 text-justify">
             {" "}
-            five centuries, but also the leap into electronic typesetting,
+            {/* five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
@@ -104,7 +98,7 @@ const AnalytixMarketing = () => {
             established fact that a reader will be distracted by the readable
             content of a page when looking at its layout. The point of using
             Lorem Ipsum is that it has a more-or-less normal distribution of
-            five centuries, but also the leap into electronic typesetting,
+            five centuries, but also the leap into electronic typesetting, */}
           </span>
           <Layout />
         </div>

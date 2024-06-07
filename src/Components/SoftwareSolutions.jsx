@@ -44,33 +44,31 @@ const SoftwareSolutions = () => {
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
               <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
                 <h1 className="gradient-text text-black font-bold text-[33px]">
-                  Who we are ...?
+                  Software Solutions
                 </h1>
                 <p className="text-black text-justify">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum. It is
-                  a long established fact that a reader will be distracted by
-                  the readable content <br /> of a page when looking at its
-                  layout. The point of using Lorem Ipsum is that it has a
-                  more-or-less normal distribution of letters, as opposed to
-                  using 'Content here, content here', making it look like
-                  readablehvbshjdbv It is a long established fact that a reader
-                  will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that
-                  it has a more-or-less normal distribution of letters, as
-                  opposed to using 'Content here, content here', making it look
-                  like readable English. typesetting industry. Lorem Ipsum has
-                  been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  to make a type
+                  Our software solutions are designed to streamline operations,
+                  enhance productivity, and support business growth. We offer a
+                  range of services to meet your specific software needs: <br />{" "}
+                  •⁠ ⁠*Custom Software Development:* Develop tailored software
+                  solutions that address your unique business requirements. Our
+                  custom software is scalable, secure, and designed to grow with
+                  your business.
+                  <br /> •⁠ ⁠*Website and App Development:* Create user-friendly
+                  and efficient digital platforms that enhance your online
+                  presence. Our websites and apps are designed to deliver
+                  exceptional user experiences and drive engagement.
+                  <br /> •⁠ ⁠*CRM and ERP Systems:* Streamline your business
+                  processes with robust Customer Relationship Management (CRM)
+                  and Enterprise Resource Planning (ERP) systems. Our solutions
+                  help you manage your operations more effectively and improve
+                  overall efficiency. At Auxzon Solutions, we are dedicated to
+                  providing high-quality, reliable, and innovative solutions
+                  that empower businesses to achieve their goals. Whether you
+                  need to optimize your Amazon presence, drive marketing
+                  success, unlock the power of your data, or develop custom
+                  software, we have the expertise and resources to help you
+                  succeed.
                 </p>
               </div>
 
@@ -82,7 +80,7 @@ const SoftwareSolutions = () => {
           </div>
           <span className="w-full text-black md:max-w-max md:px-5 px-6 text-justify">
             {" "}
-            five centuries, but also the leap into electronic typesetting,
+            {/* five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
@@ -106,7 +104,7 @@ const SoftwareSolutions = () => {
             established fact that a reader will be distracted by the readable
             content of a page when looking at its layout. The point of using
             Lorem Ipsum is that it has a more-or-less normal distribution of
-            five centuries, but also the leap into electronic typesetting,
+            five centuries, but also the leap into electronic typesetting, */}
           </span>
           <Layout />
         </div>

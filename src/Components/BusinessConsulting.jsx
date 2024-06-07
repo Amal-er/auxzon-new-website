@@ -29,7 +29,7 @@ const BusinessConsulting = () => {
             style={{ backgroundImage: `url(${aboutbg})` }}
           >
             <h1 className="text-[33px] font-bold text-white">
-              Business Consulting
+              Ecommerce Business Solutions
             </h1>
             <p className="text-center text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide ">
               Are you ready to elevate your business to new heights? Look no
@@ -42,33 +42,29 @@ const BusinessConsulting = () => {
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
               <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
                 <h1 className="gradient-text text-black font-bold text-[33px]">
-                  Who we are ...?
+                  Ecommerse
                 </h1>
                 <p className="text-black text-justify">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum. It is
-                  a long established fact that a reader will be distracted by
-                  the readable content <br /> of a page when looking at its
-                  layout. The point of using Lorem Ipsum is that it has a
-                  more-or-less normal distribution of letters, as opposed to
-                  using 'Content here, content here', making it look like
-                  readablehvbshjdbv It is a long established fact that a reader
-                  will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that
-                  it has a more-or-less normal distribution of letters, as
-                  opposed to using 'Content here, content here', making it look
-                  like readable English. typesetting industry. Lorem Ipsum has
-                  been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  to make a type
+                  Our Amazon Seller Services are tailored to maximize your
+                  presence and sales on the Amazon platform. We offer a suite of
+                  services designed to optimize every aspect of your Amazon
+                  business:
+                  <br />
+                  ⁠*PPC Management:* Our team of experts will manage your
+                  pay-per-click campaigns to ensure maximum visibility and ROI.
+                  We use advanced strategies to target the right audience and
+                  increase conversions.
+                  <br /> •⁠ ⁠*Product Listing Optimization:* Enhance your
+                  product listings with optimized keywords, compelling
+                  descriptions, and high-quality images to improve search
+                  rankings and attract more customers.
+                  <br /> •⁠ ⁠*Review and Feedback Management:* Build a strong
+                  reputation by managing customer reviews and feedback
+                  effectively. We help you engage with customers, address their
+                  concerns, and maintain a positive brand image.
+                  <br /> •⁠ ⁠*Strategy and Consultation:* Receive expert
+                  guidance on Amazon best practices, competitive analysis, and
+                  overall strategy to stay ahead in the marketplace.
                 </p>
               </div>
 
@@ -80,7 +76,7 @@ const BusinessConsulting = () => {
           </div>
           <span className="w-full text-black md:max-w-max md:px-5 px-6 text-justify">
             {" "}
-            five centuries, but also the leap into electronic typesetting,
+            {/* five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
@@ -104,7 +100,7 @@ const BusinessConsulting = () => {
             established fact that a reader will be distracted by the readable
             content of a page when looking at its layout. The point of using
             Lorem Ipsum is that it has a more-or-less normal distribution of
-            five centuries, but also the leap into electronic typesetting,
+            five centuries, but also the leap into electronic typesetting, */}
           </span>
           <Layout />
         </div>

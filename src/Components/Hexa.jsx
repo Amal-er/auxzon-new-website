@@ -65,21 +65,21 @@ function Hexa() {
             <img className="w-[90%] md:w-[500px]" src={auxzonhexa} alt="" />
           </div>
 
-          {/* hexass-------------- */}
+          {/* hexass------- desktop------- */}
           <div className="hexag1-container md:px-56 hidden md:block ">
-            <div className="hexag1-row md:py-5 flex flex-col md:flex-row justify-center relative items-center mb-5 md:mb-0">
-              <div className="flex flex-col justify-center items-center w-32">
+            <div className="hexag1-row md:py-5 flex flex-col  md:flex-row justify-center relative items-center mb-5 md:mb-0">
+              <div className="flex flex-col justify-center items-center w-32 ">
                 <img
-                  className="w-16 md:w-32 absolute top-0 md:top-[20px] left-[-5px] md:right-[770px]"
+                  className="w-16 md:w-32 absolute top-0 md:top-[20px]  left-[-5px] md:right-[770px]"
                   src={one}
                   alt=""
                 />
               </div>
 
-              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-24 md:ml-8 text-justify">
+              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-32 md:ml-8 text-justify">
                 This step involves thoroughly evaluating the current situation,
                 and identifying challenges, opportunities, and key factors
-                influencing the desired outcome. It includes gathering relevant
+                influencing the desired outcome.It includes gathering relevant
                 data, conducting research, and analyzing information to gain a
                 comprehensive understanding of the situation.
               </div>

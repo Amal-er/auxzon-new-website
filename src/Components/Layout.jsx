@@ -37,11 +37,12 @@ const Layout = ({ children }) => {
     <div className="overflow-x-hidden">
       <div>{children}</div>
       <button
-        className="inset-y-0 fixed w-6 h-36 right-1 top-1/2 transform -translate-y-1/2 bg-custom-gradient text-white px-4 md:px-6 py-2 rounded-lg hover:bg-red-500 flex justify-center items-center "
+        className="inset-y-0 fixed w-3 h-36 right-1 top-1/2 transform -translate-y-1/2 bg-custom-gradient text-white px-5 md:px-6 py-2 rounded-lg hover:bg-red-500 flex justify-center items-center"
         onClick={toggleEnquireForm}
       >
-        <p className="transform -rotate-90 origin-center ">Enquire Now</p>
+        <p className="origin-center writing-mode-vertical-rl">Enquire Now</p>
       </button>
+
       {isEnquireFormOpen && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50">
           <div className="bg-[#f0f2f4] w-3/4 p-6 rounded-xl shadow-lg relative md:w-1/2 md:p-20 md:border-t-8 border-purple">
@@ -51,7 +52,9 @@ const Layout = ({ children }) => {
             >
               &times;
             </button>
-            <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-black">
+              Get in Touch
+            </h2>
             <form onSubmit={sendEmail}>
               <div className="mb-4">
                 <label
@@ -65,7 +68,7 @@ const Layout = ({ children }) => {
                   id="name"
                   name="name"
                   placeholder="Enter Your Name"
-                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 text-black"
                   required
                 />
               </div>
@@ -81,7 +84,7 @@ const Layout = ({ children }) => {
                   id="email"
                   name="email"
                   placeholder="Enter Your Email"
-                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 text-black"
                   required
                 />
               </div>
@@ -97,7 +100,7 @@ const Layout = ({ children }) => {
                   id="number"
                   name="number"
                   placeholder="Enter Your Number"
-                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="mt-1 block w-full h-12 px-4 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 text-black"
                   required
                 />
               </div>
@@ -111,7 +114,7 @@ const Layout = ({ children }) => {
                 <select
                   id="services"
                   name="services"
-                  className="mt-1 block w-full px-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="mt-1 block w-full px-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 text-black"
                   required
                 >
                   <option value="" disabled>

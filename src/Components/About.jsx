@@ -90,7 +90,7 @@ const About = () => {
                     onClick={handleDownload}
                   >
                     <IoMdDownload />
-                    DownLoad Brochure
+                    Download Brochure
                   </button>
                 </div>
               </div>

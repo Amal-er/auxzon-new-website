@@ -34,7 +34,7 @@ const services = [
   },
   {
     id: 3,
-    title: "Amazone Seller Service",
+    title: "Ecommerce Business Solutions",
     icon: bcsolu,
     para: " Our specialized Amazon services include PPC management, product listing optimization, review and feedback management,",
     url: "/businessconsulting",
@@ -70,11 +70,11 @@ const Home = () => {
         </div>
 
         <div className="w-full h-auto flex flex-col md:flex-row mt-14">
-          <div className="w-full md:w-1/2 md:px-5 py-10  flex justify-start ">
-            <h1 className="gradient-text text-5xl md:text-7xl px-4 leading-relaxed font-semibold  ">
+          <div className="w-full md:w-1/2 md:px-5 py-10 flex justify-start leading-6">
+            <h1 className="gradient-text text-5xl md:text-7xl px-4  font-semibold">
               <Typewriter
                 words={["Transforming Ideas into Digital Solutions"]}
-                loop={5}
+                loop={1}
                 cursor
                 cursorStyle="_"
                 typeSpeed={70}
@@ -96,10 +96,10 @@ const Home = () => {
             </Link>
           </div>
         </div>
-
-        <div className="w-full h-64 md:h-96 md:px-5 overflow-hidden">
+        {/* banner images------------- */}
+        <div className="w-full h-64 md:h-96 overflow-hidden">
           <img
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl w-full h-full object-cover"
             src={
               currentImageIndex === 0
                 ? ooze
