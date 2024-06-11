@@ -10,8 +10,9 @@ import datasolu from "../assets/images/datasolu.png";
 import analytix from "../assets/images/analytix.png";
 import software from "../assets/images/softwaresicon.png";
 import { Link } from "react-router-dom";
-import databanner from "../assets/images/databanner.webp";
-const DataSolutions = () => {
+import ecommercebanner from "../assets/images/ecommercebanner.webp";
+
+const EcommerseBusinessSolutions = () => {
   const services = [
     {
       id: 1,
@@ -23,7 +24,7 @@ const DataSolutions = () => {
     {
       id: 2,
       title: "Software Solutions",
-      para: " auxzon's software solutions are meticulously crafted to meet the unique needs of your business.",
+      para: "auxzon's software solutions are meticulously crafted to meet the unique needs of your business.",
       icon: software,
       url: "/softwaresolutions",
     },
@@ -61,16 +62,18 @@ const DataSolutions = () => {
         <div className="bg-[#f0f2f4] min-h-screen flex flex-col px-2 items-center text-white py-6 md:px-8">
           <div
             className="flex flex-col  justify-start md:p-20 p-6 items-left  bg-cover bg-center w-full h-56 md:h-[260px]  rounded-xl mb-10"
-            style={{ backgroundImage: `url(${databanner})` }}
+            style={{ backgroundImage: `url(${ecommercebanner})` }}
           >
-            <h1 className="text-[33px] font-bold text-white">Data Solutions</h1>
+            <h1 className="text-[33px] font-bold text-white">
+              E-commerce Business Solutions
+            </h1>
             <p className="text-white md:pr-10">
               Home |{" "}
               <span
                 className="text-white md:pl-2
                 "
               >
-                Services | Data Solutions{" "}
+                Services | Ecommerse Business Solutions{" "}
               </span>{" "}
             </p>
           </div>
@@ -79,7 +82,7 @@ const DataSolutions = () => {
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
               <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
                 <h1 className="gradient-text text-black font-bold text-[33px]">
-                  Data Solutions
+                  E-commerce Business Solutions
                 </h1>
                 {/* <p className="text-black text-justify">
                   Our software solutions are designed to streamline operations,
@@ -88,39 +91,37 @@ const DataSolutions = () => {
                 </p> */}
                 <div className="md:py-2">
                   <span className="text-black text-justify ">
-                    In the age of big data, making sense of vast amounts of
-                    information is crucial for business success. Our data
-                    solutions encompass machine learning, data visualization,
-                    and comprehensive data analysis. We help businesses unlock
-                    valuable insights from their data, enabling informed
-                    decision-making and strategic planning.
+                    Navigating the competitive ecommerce landscape can be
+                    challenging. With Auxzon's specialized Amazon services, you
+                    can maximize your online sales and strengthen your market
+                    presence.
                   </span>
                 </div>
 
                 <div className="md:py-2">
                   <p className="text-black font-semibold text-2xl">
-                    Data Analytics
+                    PPC Management
                   </p>
                   <span className="text-black text-justify ">
-                    Gain deeper insights into your business operations with our
-                    data analytics services. We analyze your data to uncover
-                    patterns, trends, and opportunities that can drive growth
-                    and improve decision-making. Our analytics services help you
-                    make data-driven decisions that positively impact your
-                    bottom line.
+                    Optimize your advertising spend and boost your return on
+                    investment with our expert PPC management services. We
+                    design and manage campaigns that drive targeted traffic and
+                    increase conversions on Amazon. Our PPC strategies are
+                    tailored to maximize the visibility and sales of your
+                    products.
                   </span>
                 </div>
                 <div className=" ">
                   <p className="text-black font-semibold text-2xl">
-                    Data Visualization
+                    Product Listing Optimization
                   </p>
                   <span className="text-black text-justify ">
-                    Transform complex data into intuitive and understandable
-                    visual formats with our data visualization services. We
-                    create interactive dashboards and detailed reports that make
-                    it easy to interpret and communicate your data insights. Our
-                    visualization tools help you see the bigger picture and make
-                    informed strategic decisions.
+                    Make your products stand out in the crowded Amazon
+                    marketplace with our product listing optimization services.
+                    We enhance your listings with compelling descriptions,
+                    high-quality images, and relevant keywords to improve their
+                    visibility and attract more customers. Our goal is to
+                    increase your product’s ranking and sales.
                   </span>
                 </div>
               </div>
@@ -135,30 +136,29 @@ const DataSolutions = () => {
                 <div className="w-full text-black text-justify mt-4 md:absolute md:bottom-0 md:left-0 md:w-full bg-[#f0f2f4] px-6 py-4 md:mt-[600px] ">
                   <div className="md:py-2 ">
                     <p className="text-black font-semibold text-2xl">
-                      Predictive Analytics
+                      Review and Feedback Management
                     </p>
                     <span className="text-black text-justify ">
-                      Stay ahead of the competition with our predictive
-                      analytics services. Using advanced algorithms and machine
-                      learning techniques, we forecast future trends and
-                      behaviors, enabling you to proactively address challenges
-                      and seize opportunities. Our predictive insights help you
-                      make strategic decisions that drive long-term success.
+                      Build trust and credibility with our effective review and
+                      feedback management services. We help you collect, manage,
+                      and respond to customer feedback, improving your overall
+                      rating and customer satisfaction. Our proactive approach
+                      ensures that you maintain a positive brand image and
+                      foster customer loyalty.
                     </span>
                   </div>
                   {/*  */}
                   <div className="md:py-2 ">
                     <p className="text-black font-semibold text-2xl">
-                      Data Management
+                      Inventory Management
                     </p>
                     <span className="text-black text-justify ">
-                      Ensure the accuracy, security, and compliance of your data
-                      with our comprehensive data management services. We
-                      provide solutions for data storage, cleansing,
-                      integration, and governance, ensuring that your data is
-                      reliable and meets all relevant regulations. Our data
-                      management services help you maintain data integrity and
-                      trustworthiness.
+                      Ensure that your products are always available for
+                      purchase with our inventory management services. We
+                      provide tools and strategies to manage stock levels,
+                      forecast demand, and avoid stockouts or overstock
+                      situations. Our inventory solutions help you maintain a
+                      smooth and efficient supply chain.
                     </span>
                   </div>
                   {/*  */}
@@ -166,6 +166,10 @@ const DataSolutions = () => {
               </div>
             </div>
           </div>
+
+          {/*  */}
+
+          {/*  */}
 
           <span className="w-full text-black md:max-w-max md:px-5 px-6 text-justify">
             {" "}
@@ -198,7 +202,9 @@ const DataSolutions = () => {
           <Layout />
         </div>
       </div>
+
       {/*  */}
+
       <div className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-10 p-8 md:py-10 md:mt-10 ">
         {services.map((service, index) => (
           <div
@@ -228,6 +234,7 @@ const DataSolutions = () => {
           </div>
         ))}
       </div>
+
       {/*  */}
       <div>
         <Footer />
@@ -236,4 +243,4 @@ const DataSolutions = () => {
   );
 };
 
-export default DataSolutions;
+export default EcommerseBusinessSolutions;

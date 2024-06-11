@@ -7,7 +7,7 @@ import Layout from "./Layout";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import ApplyForm from "./Applyform";
 
-const SalesManager = () => {
+const Uiuxdesigner = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showForm, setShowForm] = useState(false); // State for showing the form
 
@@ -41,10 +41,10 @@ const SalesManager = () => {
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl"></div>
             <div className="relative p-5 flex flex-col justify-center items-left md:px-12 md:py-20">
               <h1 className="text-[33px] font-bold text-white">
-                Sales Manager
+                UI-UX Designer
               </h1>
               <p className="text-white">
-                Home |<span className="text-white md:pl-2"> Career</span>
+                Home |<span className="text-white md:pl-2"> UI-UX</span>
               </p>
             </div>
           </div>
@@ -55,12 +55,13 @@ const SalesManager = () => {
                 Job Summary
               </h1>
               <p className="text-black text-left text-justify mt-4">
-                Auxzon is seeking a dynamic and results-oriented Sales Manager
-                to lead our sales team. The ideal candidate will be responsible
-                for driving sales growth, managing a team of sales
-                representatives, setting and achieving sales targets, and
-                ensuring the team is equipped with the necessary tools and
-                support to excel in their roles.
+                We are seeking a talented and creative UI/UX Designer to join
+                our team. The UI/UX Designer will be responsible for designing
+                and implementing user interfaces for web and mobile
+                applications, ensuring an optimal user experience and visual
+                appeal. This role offers an exciting opportunity to work on
+                diverse projects and contribute to the success of cutting-edge
+                digital solutions.
               </p>
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">
@@ -70,86 +71,90 @@ const SalesManager = () => {
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Develop and implement strategic sales plans to achieve
-                    company targets.
+                    Collaborate with cross-functional teams to understand
+                    project requirements, user needs, and business objectives.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Set sales targets for the team and ensure they are met or
-                    exceeded consistently.
+                    Design intuitive user interfaces for web and mobile
+                    applications, ensuring usability, accessibility, and visual
+                    consistency.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Analyze market trends and competitor activities to identify
-                    opportunities for growth.
+                    Create wireframes, mockups, and prototypes to communicate
+                    design concepts and interactions effectively.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Lead, motivate, and manage a team of sales representatives.
+                    Conduct user research, usability testing, and feedback
+                    sessions to gather insights and validate design decisions.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Provide coaching, training, and guidance to team members to
-                    enhance their performance.
+                    Iterate on designs based on user feedback, stakeholder
+                    input, and industry best practices.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Conduct regular performance reviews and provide constructive
-                    feedback.
+                    Work closely with developers to ensure seamless
+                    implementation of designs, adhering to technical constraints
+                    and performance considerations.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Drive the generation of leads through various channels,
-                    including cold calling, networking, and referrals.
+                    Stay updated on UI/UX trends, emerging technologies, and
+                    best practices to continuously improve design capabilities.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Oversee the process of converting leads into customers and
-                    ensure a high conversion rate.
+                    Collaborate with stakeholders to define and maintain design
+                    systems, style guides, and pattern libraries for consistency
+                    across projects.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                {/* <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Build and maintain strong relationships with key customers
                     and clients.
                   </span>
-                </li>
-                <li className="flex justify-start items-center">
+                </li> */}
+                {/* <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Address customer inquiries, concerns, and complaints in a
                     timely and professional manner.
                   </span>
-                </li>
-                <li className="flex justify-start items-center">
+                </li> */}
+                {/* <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Monitor sales performance metrics and provide regular
                     reports to senior management.
                   </span>
-                </li>
-                <li className="flex justify-start items-center">
+                </li> */}
+                {/* <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Analyze sales data to identify trends, opportunities, and
                     areas for improvement.
                   </span>
-                </li>
+                </li> */}
               </ul>
 
               <ul className="text-black py-7 leading-loose">
@@ -161,8 +166,7 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
-                    Bachelor’s degree in Business Administration, Marketing, or
-                    related field
+                    Knowledge in UI/UX design for web and mobile applications.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
@@ -171,24 +175,8 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
-                    Proven experience in sales management, preferably in a field
-                    sales environment.
-                  </span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>Strong leadership and team management skills.</span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>
-                    Excellent communication and interpersonal abilities.
+                    Strong portfolio demonstrating proficiency in creating
+                    user-centered design solutions.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
@@ -197,8 +185,7 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
-                    Ability to thrive in a fast-paced and target-driven
-                    environment.
+                    Excellent problem-solving skills and attention to detail.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
@@ -207,7 +194,47 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
-                    Proficiency in CRM software and Microsoft Office Suite
+                    Ability to collaborate effectively with cross-functional
+                    teams and stakeholders.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Familiarity with agile development methodologies and
+                    processes.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Adaptability to evolving design trends and technologies.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Prior experience working in a digital agency or software
+                    development environment is a plus.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Understanding of front-end development technologies (HTML,
+                    CSS, JavaScript) is advantageous.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
@@ -215,7 +242,9 @@ const SalesManager = () => {
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   /> */}
-                  <span className="text-black font-bold">We Offer:</span>
+                  <span className="text-black font-bold">
+                    Preferred Qualifications:
+                  </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle
@@ -223,11 +252,94 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
+                    Bachelor’s degree in graphic design, interaction design,
+                    HCI, or related field; Master’s degree preferred.
+                  </span>
+                </li>
+
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Proven experience in UI/UX design for web and mobile
+                    applications.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Proficiency in design tools such as Sketch, Adobe XD, Figma,
+                    or similar.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Strong understanding of design principles, typography, color
+                    theory, and layout.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Experience with user research methods, usability testing,
+                    and prototyping tools.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Excellent communication and collaboration skills, with the
+                    ability to present and defend design decisions.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Ability to work effectively in a fast-paced environment,
+                    manage multiple projects, and meet deadlines.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Portfolio showcasing a range of UI/UX design projects and
+                    processes.
+                  </span>
+                </li>
+                {/*  */}
+                <span className="text-black font-bold">We Offer:</span>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
                     A competitive entry-level salary and comprehensive benefits
                     package.
                   </span>
                 </li>
-
+                {/*  */}
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle
                     color="blue"
@@ -258,7 +370,6 @@ const SalesManager = () => {
                     offering invaluable work experience.
                   </span>
                 </li>
-
                 <span className="text-black font-bold">Join Us:</span>
                 <p>
                   If you are driven by data and inspired by the potential to
@@ -286,4 +397,4 @@ const SalesManager = () => {
   );
 };
 
-export default SalesManager;
+export default Uiuxdesigner;

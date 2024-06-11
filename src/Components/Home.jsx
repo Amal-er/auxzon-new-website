@@ -28,16 +28,16 @@ const services = [
   {
     id: 2,
     title: "Software Solutions",
-    para: " Our software solutions are designed to streamline operations and enhance business productivity.",
+    para: "auxzon's software solutions are meticulously crafted to meet the unique needs of your business.",
     icon: software,
     url: "/softwaresolutions",
   },
   {
     id: 3,
-    title: "Ecommerce Business Solutions",
+    title: "E-commerce Business Solutions",
     icon: bcsolu,
-    para: " Our specialized Amazon services include PPC management, product listing optimization, review and feedback management,",
-    url: "/businessconsulting",
+    para: " Navigating the competitive ecommerce landscape can be challenging. With Auxzon's specialized Amazon services, ",
+    url: "/EcommerseBusinessSolutions",
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ const Home = () => {
 
         <div className="w-full h-auto flex flex-col md:flex-row mt-14">
           <div className="w-full md:w-1/2 md:px-5 py-10 flex justify-start leading-6">
-            <h1 className="gradient-text text-5xl md:text-7xl px-4  font-semibold">
+            <h1 className="text-gray-600 text-5xl md:text-7xl px-4  font-semibold">
               <Typewriter
                 words={["Transforming Ideas into Digital Solutions"]}
                 loop={1}
@@ -141,9 +141,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col py-4 justify-center items-center h-64 md:h-96 md:px-5">
+      <div className="w-full flex flex-col py-4 justify-center items-center h-64 md:h-96 md:px-5 ">
         <video
-          className="w-[80%] md:w-[60%] py-4 custom-height"
+          className="w-[80%] md:w-[60%] py-4 custom-height shadow-lg"
           controls
           autoPlay
           loop
@@ -195,11 +195,9 @@ const Home = () => {
 
       <div className="w-full h-32 flex justify-center items-center">
         <h1 className="text-3xl font-medium text-center md:text-left">
-          <span className="block md:inline text-[33px]">
-            Our Services Apply{" "}
-          </span>
+          <span className="block md:inline text-[33px]">auxzon</span>
           <p className="block md:inline text-[33px]">
-            to These <span className="gradient-text"> Industries</span>
+            <span className="gradient-text"> Hexa</span>
           </p>
         </h1>
       </div>

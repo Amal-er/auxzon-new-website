@@ -7,7 +7,7 @@ import Layout from "./Layout";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import ApplyForm from "./Applyform";
 
-const SalesManager = () => {
+const VideoGrapher = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showForm, setShowForm] = useState(false); // State for showing the form
 
@@ -41,10 +41,10 @@ const SalesManager = () => {
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl"></div>
             <div className="relative p-5 flex flex-col justify-center items-left md:px-12 md:py-20">
               <h1 className="text-[33px] font-bold text-white">
-                Sales Manager
+                Video Grapher
               </h1>
               <p className="text-white">
-                Home |<span className="text-white md:pl-2"> Career</span>
+                Home |<span className="text-white md:pl-2">Video Grapher</span>
               </p>
             </div>
           </div>
@@ -55,12 +55,12 @@ const SalesManager = () => {
                 Job Summary
               </h1>
               <p className="text-black text-left text-justify mt-4">
-                Auxzon is seeking a dynamic and results-oriented Sales Manager
-                to lead our sales team. The ideal candidate will be responsible
-                for driving sales growth, managing a team of sales
-                representatives, setting and achieving sales targets, and
-                ensuring the team is equipped with the necessary tools and
-                support to excel in their roles.
+                We are seeking a skilled and creative Videographer cum Video
+                Editor to support our in-house needs as well as those of our
+                external clients. The ideal candidate will be versatile, capable
+                of handling multiple projects simultaneously, and adept at
+                producing visually compelling video content that meets our high
+                standards.
               </p>
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">
@@ -70,86 +70,86 @@ const SalesManager = () => {
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Develop and implement strategic sales plans to achieve
-                    company targets.
+                    Plan, shoot, and edit high-quality video content for
+                    internal and external projects.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Set sales targets for the team and ensure they are met or
-                    exceeded consistently.
+                    Collaborate with marketing and product teams on promotional
+                    and social media videos.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Analyze market trends and competitor activities to identify
-                    opportunities for growth.
+                    Handle pre-production planning, storyboarding, lighting,
+                    sound, filming, and editing.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Lead, motivate, and manage a team of sales representatives.
+                    Work with clients to align video solutions with their brand
+                    identity and objectives.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Provide coaching, training, and guidance to team members to
-                    enhance their performance.
+                    Maintain consistency with Auxzon Solutions Pvt Ltd’s brand
+                    guidelines and visual style.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Conduct regular performance reviews and provide constructive
-                    feedback.
+                    Contribute creative ideas in brainstorming sessions.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Drive the generation of leads through various channels,
-                    including cold calling, networking, and referrals.
+                    Manage multiple video projects, ensuring timely delivery and
+                    meeting deadlines.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Oversee the process of converting leads into customers and
-                    ensure a high conversion rate.
+                    Stay updated with industry trends and improve video
+                    production capabilities.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Build and maintain strong relationships with key customers
-                    and clients.
+                    Present video concepts to stakeholders and clients,
+                    incorporating feedback.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
-                    Address customer inquiries, concerns, and complaints in a
-                    timely and professional manner.
+                    Collaborate with videographers, editors, and team members to
+                    achieve project goals.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                {/* <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Monitor sales performance metrics and provide regular
                     reports to senior management.
                   </span>
-                </li>
-                <li className="flex justify-start items-center">
+                </li> */}
+                {/* <li className="flex justify-start items-center">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Analyze sales data to identify trends, opportunities, and
                     areas for improvement.
                   </span>
-                </li>
+                </li> */}
               </ul>
 
               <ul className="text-black py-7 leading-loose">
@@ -161,8 +161,8 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
-                    Bachelor’s degree in Business Administration, Marketing, or
-                    related field
+                    Bachelor’s degree in Film Production, Video Production,
+                    Multimedia, or related field.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
@@ -171,24 +171,8 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
-                    Proven experience in sales management, preferably in a field
-                    sales environment.
-                  </span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>Strong leadership and team management skills.</span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>
-                    Excellent communication and interpersonal abilities.
+                    Proven experience as a Videographer and Video Editor with a
+                    strong portfolio.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
@@ -197,7 +181,37 @@ const SalesManager = () => {
                     className="  mr-2 text-xl  "
                   />
                   <span>
-                    Ability to thrive in a fast-paced and target-driven
+                    Proficient in Adobe Premiere Pro, Final Cut Pro, and After
+                    Effects.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Strong understanding of video production techniques:
+                    lighting, sound, and camera operation.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Excellent communication skills for articulating video
+                    concepts and ideas.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Ability to work independently and collaboratively in a team
                     environment.
                   </span>
                 </li>
@@ -206,8 +220,42 @@ const SalesManager = () => {
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
+                  <span>Strong attention to detail and aesthetics.</span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>Strong attention to detail and visual aesthetics.</span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
                   <span>
-                    Proficiency in CRM software and Microsoft Office Suite
+                    Time management skills to handle multiple projects with
+                    tight deadlines.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Experience working with clients and managing their
+                    expectations and feedback.
+                  </span>
+                </li>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="  mr-2 text-xl  "
+                  />
+                  <span>
+                    Knowledge of motion graphics and animation is a plus.
                   </span>
                 </li>
                 <li className="flex justify-start items-center">
@@ -258,7 +306,89 @@ const SalesManager = () => {
                     offering invaluable work experience.
                   </span>
                 </li>
-
+                {/* <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Experience with user research methods, usability testing,
+                    and prototyping tools.
+                  </span>
+                </li> */}
+                {/* <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Excellent communication and collaboration skills, with the
+                    ability to present and defend design decisions.
+                  </span>
+                </li> */}
+                {/* <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Ability to work effectively in a fast-paced environment,
+                    manage multiple projects, and meet deadlines.
+                  </span>
+                </li> */}
+                {/* <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Portfolio showcasing a range of UI/UX design projects and
+                    processes.
+                  </span>
+                </li> */}
+                {/*  */}
+                {/* <span className="text-black font-bold">Join Us:</span>
+                <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    A competitive entry-level salary and comprehensive benefits
+                    package.
+                  </span>
+                </li> */}
+                {/*  */}
+                {/* <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    A vibrant and inclusive company culture that encourages
+                    creativity and innovation.
+                  </span>
+                </li> */}
+                {/* <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Continuous learning and professional development
+                    opportunities.
+                  </span>
+                </li> */}
+                {/* <li className="flex justify-start items-center">
+                  <IoCheckmarkCircle
+                    color="blue"
+                    className="mr-2 text-xl font-semibold"
+                  />
+                  <span>
+                    Exposure to a wide range of industries and projects,
+                    offering invaluable work experience.
+                  </span>
+                </li> */}
                 <span className="text-black font-bold">Join Us:</span>
                 <p>
                   If you are driven by data and inspired by the potential to
@@ -286,4 +416,4 @@ const SalesManager = () => {
   );
 };
 
-export default SalesManager;
+export default VideoGrapher;

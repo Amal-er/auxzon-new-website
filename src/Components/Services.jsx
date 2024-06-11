@@ -26,16 +26,16 @@ const Services = () => {
     {
       id: 2,
       title: "Software Solutions",
-      para: " Our software solutions are designed to streamline operations and enhance business productivity.",
+      para: " auxzon's software solutions are meticulously crafted to meet the unique needs of your business.",
       icon: software,
       url: "/softwaresolutions",
     },
     {
       id: 3,
-      title: "Ecommerce Business Solutions",
+      title: "E-commerce Business Solutions",
       icon: bcsolu,
-      para: " Our specialized Amazon services include PPC management, product listing optimization, review and feedback management,",
-      url: "/businessconsulting",
+      para: "  Navigating the competitive ecommerce landscape can be challenging. With Auxzon's specialized Amazon services,",
+      url: "/EcommerseBusinessSolutions",
     },
     {
       id: 4,
@@ -70,9 +70,9 @@ const Services = () => {
               <h1 className="text-[33px] font-bold text-white">Services</h1>
 
               <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
-                Are you ready to elevate your business to new heights? Look no
-                further than auxzon Solutions <br /> for data-driven business
-                insights tailored to your specific needs.
+                From bespoke software to insightful analytics, we offer a suite
+                of services designed to propel your business forward.
+                <br /> Explore how Auxzon can drive your success.
               </p>
               <p className="text-white">
                 Home |<span className="text-white md:pl-2"> Services</span>
@@ -86,8 +86,8 @@ const Services = () => {
                 What we do
               </h1>
               <p className="text-black text-left text-justify mt-4">
-                At Auxzon Solutions, we offer a comprehensive range of services
-                designed to help businesses thrive in the digital age. Our
+                At auxzon Solutions, we offer a comprehensive range of services
+                designed to help business thrive in the digital age. Our
                 expertise spans across four key areas: Amazon Seller Services,
                 Marketing Services, Data Solutions, and Software Solutions.
                 Here’s how we can help your business succeed:Our priority is to

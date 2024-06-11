@@ -30,10 +30,39 @@ const Career = () => {
     },
     {
       type: "On-site",
-      title: "Data Analyst",
+      title: "UI-UX Designer",
       description:
         "Designing and programming robots that utilize AI techniques for perception, decision-making, and autonomous operation.",
-      url: "/data-analyst",
+      url: "/ui-uxdesigner",
+    },
+
+    {
+      type: "On-site",
+      title: "Graphic Designer",
+      description:
+        "Designing and programming robots that utilize AI techniques for perception, decision-making, and autonomous operation.",
+      url: "/graphic-designer",
+    },
+    {
+      type: "On-site",
+      title: "Video Grapher",
+      description:
+        "Designing and programming robots that utilize AI techniques for perception, decision-making, and autonomous operation.",
+      url: "/video-grapher",
+    },
+    {
+      type: "On-site",
+      title: "Marketing Head",
+      description:
+        "Designing and programming robots that utilize AI techniques for perception, decision-making, and autonomous operation.",
+      url: "/marketing-head",
+    },
+    {
+      type: "On-site",
+      title: "Business Development Executive (intern)",
+      description:
+        "Designing and programming robots that utilize AI techniques for perception, decision-making, and autonomous operation.",
+      url: "/bde-intern",
     },
   ];
 
@@ -63,9 +92,9 @@ const Career = () => {
               <h1 className="text-[33px] font-bold text-white">Career</h1>
 
               <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
-                Are you ready to elevate your business to new heights? Look no
-                further than auxzon Solutions <br /> for data-driven business
-                insights tailored to your specific needs.
+                Join a team where creativity meets technology. Explore exciting
+                career opportunities at Auxzon <br /> and be a part of our
+                innovative journey.
               </p>
               <p className="text-white">
                 Home |<span className="text-white md:pl-2"> Career</span>
@@ -119,10 +148,12 @@ const Career = () => {
                       <span className="text-lg font-semibold">
                         {job.salary}
                       </span>{" "}
-                      {/* Use Link component and set the 'to' attribute to the job URL */}
-                      <button className="w-32 h-12  bg-transparent text-blue-500 border border-blue-500 rounded-full text-sm hover:bg-blue-500 hover:text-white transition">
-                        Apply Now
-                      </button>
+                      <Link to={job.url}>
+                        {/* Use Link component and set the 'to' attribute to the job URL */}
+                        <button className="w-32 h-12  bg-transparent text-blue-500 border border-blue-500 rounded-full text-sm hover:bg-blue-500 hover:text-white transition">
+                          Apply Now
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 ))}

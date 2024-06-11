@@ -32,14 +32,38 @@
   transform: rotate(180deg);  /* Rotate the text 180 degrees */
 }
 
-
+/* --------------------- */
 
 .hexag1-container {
-  position: relative;
+  padding-left: 14rem; 
+  padding-right: 14rem;
 }
 
 .hexag1-row {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.step-icon {
+  width: 32px;
+  margin-right: 2rem;
+}
+
+.rectangle {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  /* margin-left: 2rem; */
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .step-icon {
+    width: 130px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -48,33 +72,48 @@
     padding-right: 14rem;
   }
 
-  .hexag1-row:nth-child(1) img {
-    top: auto;
-    left: calc(50% - 440px); /* Adjust according to your layout */
+  .step-icon {
+    width: 32px;
+    margin-right: 2rem;
   }
 
-  .hexag1-row:nth-child(2) img {
-    top: auto;
-    left: calc(50% - 440px); /* Adjust according to your layout */
+  .rectangle {
+    padding: 2rem;
+    margin-left: 2rem;
   }
+}
 
-  .hexag1-row:nth-child(3) img {
-    top: auto;
-    left: calc(50% - 440px); /* Adjust according to your layout */
-  }
 
-  .hexag1-row:nth-child(4) img {
-    top: auto;
-    left: calc(50% - 440px); /* Adjust according to your layout */
-  }
+/*  */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
 
-  .hexag1-row:nth-child(5) img {
-    top: auto;
-    left: calc(50% - 440px); /* Adjust according to your layout */
-  }
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+}
 
-  .hexag1-row:nth-child(6) img {
-    top: auto;
-    left: calc(50% - 440px); /* Adjust according to your layout */
-  }
+.modal-content {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
 }

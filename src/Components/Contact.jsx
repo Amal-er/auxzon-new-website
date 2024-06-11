@@ -77,9 +77,8 @@ const Contact = () => {
               <h1 className="text-[33px] font-bold text-white">Contact</h1>
 
               <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
-                Are you ready to elevate your business to new heights? Look no
-                further than auxzon Solutions <br /> for data-driven business
-                insights tailored to your specific needs.
+                We're here to turn your ideas into reality. Reach out to us and
+                start a conversation <br /> that could redefine your business.
               </p>
               <p className="text-white">
                 Home |<span className="text-white md:pl-2"> Contact</span>

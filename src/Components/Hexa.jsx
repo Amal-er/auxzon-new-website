@@ -12,7 +12,8 @@ import { Link } from "react-router-dom";
 
 // ---------------------------------------
 import one from "../icons/01.png";
-import two from "../icons/02.png";
+import image02 from "../icons/image02.png";
+// import two from "../icons/02.png";
 import three from "../icons/03.png";
 import four from "../icons/04.png";
 import five from "../icons/05.png";
@@ -29,11 +30,11 @@ function Hexa() {
 
   return (
     <>
-      <div className="bg-[#f0f2f4] min-h-screen flex flex-col items-center justify-center text-white px-3">
-        <div className="mt-4 w-[95%]">
+      <div className="bg-[#f0f2f4] min-h-screen flex flex-col items-center text-white px-3">
+        <div className="mt-4 w-[95%] ">
           <Navbar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
         </div>
-        <div className="bg-[#f0f2f4] min-h-screen flex flex-col px-2 items-center text-white py-6 md:px-8">
+        <div className="bg-[#f0f2f4] flex flex-col items-center text-white py-6 md:px-8">
           {/* Header Section */}
           <div
             className="relative flex flex-col justify-left items-left bg-cover bg-center w-full h-56 md:h-[260px] rounded-xl mb-10"
@@ -45,15 +46,12 @@ function Hexa() {
           >
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl"></div>
             <div className="relative p-5 flex flex-col justify-center items-left md:px-12">
-              <h1 className="text-[28px] md:text-[33px] font-bold text-white">
-                Auxzon Hexa
-              </h1>
-
+              <h1 className="text-[33px] font-bold text-white">Auxzon Hexa</h1>
               <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
-                Are you ready to elevate your business to new heights? Look no
-                further than auxzon Solutions <br className="hidden md:block" />{" "}
-                for data-driven business insights tailored to your specific
-                needs.
+                Hexa is our commitment to cutting-edge technology and
+                unparalleled service.
+                <br /> Delve into the world of Auxzon Hexa and see what sets us
+                apart.
               </p>
               <p className="text-white">
                 Home |<span className="text-white md:pl-2"> Auxzon Hexa</span>
@@ -66,33 +64,30 @@ function Hexa() {
           </div>
 
           {/* hexass------- desktop------- */}
-          <div className="hexag1-container md:px-56 hidden md:block ">
-            <div className="hexag1-row md:py-5 flex flex-col  md:flex-row justify-center relative items-center mb-5 md:mb-0">
-              <div className="flex flex-col justify-center items-center w-32 ">
-                <img
-                  className="w-16 md:w-32 absolute top-0 md:top-[20px]  left-[-5px] md:right-[770px]"
-                  src={one}
-                  alt=""
-                />
+          <div class="hexag1-container md:px-56 hidden md:block">
+            <div class="hexag1-row md:py-5 flex flex-col md:flex-row justify-center relative items-center mb-5 md:mb-0">
+              <div class="flex flex-col justify-center items-center w-80">
+                <img class="step-icon w-16 md:w-80 " src={one} alt="Step 1" />
               </div>
-
-              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-32 md:ml-8 text-justify">
+              <div class="rectangle bg-white text-black p-5 rounded-lg  md:ml-8 text-justify">
+                <p className="text-violet-700 text-xl font-bold">01 Advice</p>
                 This step involves thoroughly evaluating the current situation,
                 and identifying challenges, opportunities, and key factors
-                influencing the desired outcome.It includes gathering relevant
+                influencing the desired outcome. It includes gathering relevant
                 data, conducting research, and analyzing information to gain a
                 comprehensive understanding of the situation.
               </div>
             </div>
-            <div className="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
-              <div className="flex flex-col md:flex-row justify-center items-center">
+            <div class="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
+              <div class="flex flex-col md:flex-row justify-center items-center w-80">
                 <img
-                  className="w-16 md:w-[130px] absolute top-[700px] md:top-[1210px] left-[20px] md:left-[255px]"
-                  src={two}
-                  alt=""
+                  class="step-icon w-16 md:w-80"
+                  src={image02}
+                  alt="Step 2"
                 />
               </div>
-              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-32 md:ml-8 text-justify">
+              <div class="rectangle bg-white text-black p-5 rounded-lg  md:ml-8 text-justify">
+                <p className="text-violet-700 text-xl font-bold">02 Act</p>
                 After assessing the situation, this step entails providing
                 expert advice and recommendations based on the findings. It
                 involves leveraging knowledge, experience, and expertise to
@@ -101,73 +96,62 @@ function Hexa() {
                 opportunities.
               </div>
             </div>
-            <div className="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
-              <div className="flex flex-col md:flex-row justify-center items-center">
-                <img
-                  className="w-16 md:w-32 absolute top-[1000px] md:top-[1390px] left-[20px] md:left-[255px]"
-                  src={three}
-                  alt=""
-                />
+            <div class="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
+              <div class="flex flex-col md:flex-row justify-center items-center w-80 ">
+                <img class="step-icon w-16 md:w-80" src={three} alt="Step 3" />
               </div>
-              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-32 md:ml-8 text-justify">
+              <div class="rectangle bg-white text-black p-5 rounded-lg  md:ml-8 text-justify">
+                <p className="text-violet-700 text-xl font-bold">03 Analyze</p>
                 Once the actions are taken, we monitor and evaluate the progress
                 and outcomes of the implemented strategies. It includes
                 collecting and analyzing data, measuring performance against
                 predefined metrics and benchmarks, and identifying trends,
-                patterns, and areas for improvement
+                patterns, and areas for improvement.
               </div>
             </div>
-            <div className="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  className="w-16 md:w-32 absolute top-[1200px] md:top-[1550px] left-[20px] md:left-[255px] md:py-4"
-                  src={four}
-                  alt=""
-                />
+            <div class="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
+              <div class="flex flex-col justify-center items-center  w-80">
+                <img class="step-icon w-16 md:w-80" src={four} alt="Step 4" />
               </div>
-              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-32 md:ml-8 text-justify">
+              <div class="rectangle bg-white text-black p-5 rounded-lg  md:ml-8 text-justify">
+                <p className="text-violet-700 text-xl font-bold">04 Achieve</p>
                 Once the actions are taken, we monitor and evaluate the progress
                 and outcomes of the implemented strategies. It includes
                 collecting and analyzing data, measuring performance against
                 predefined metrics and benchmarks, and identifying trends,
-                patterns, and areas for improvement
+                patterns, and areas for improvement.
               </div>
             </div>
-            <div className="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  className="w-16 md:w-32 absolute top-[1400px] md:top-[1680px] left-[20px] md:left-[255px] md:py-16"
-                  src={five}
-                  alt=""
-                />
+            <div class="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
+              <div class="flex flex-col justify-center items-center w-80">
+                <img class="step-icon w-16 md:w-80" src={five} alt="Step 5" />
               </div>
-              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-32 md:ml-8 text-justify">
+              <div class="rectangle bg-white text-black p-5 rounded-lg  md:ml-8 text-justify">
+                <p className="text-violet-700 text-xl font-bold">05 Assure</p>
                 Once the actions are taken, we monitor and evaluate the progress
                 and outcomes of the implemented strategies. It includes
                 collecting and analyzing data, measuring performance against
                 predefined metrics and benchmarks, and identifying trends,
-                patterns, and areas for improvement
+                patterns, and areas for improvement.
               </div>
             </div>
-            <div className="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  className="w-16 md:w-32 absolute top-[1600px] md:top-[1850px] left-[20px] md:left-[255px] md:py-16"
-                  src={six}
-                  alt=""
-                />
+            <div class="hexag1-row md:py-5 flex flex-col md:flex-row justify-center items-center mb-5 md:mb-0">
+              <div class="flex flex-col justify-center items-center w-80">
+                <img class="step-icon w-16 md:w-80" src={six} alt="Step 6" />
               </div>
-              <div className="rectangle bg-white text-black p-5 rounded-lg md:px-32 md:ml-8 text-justify">
+              <div class="rectangle bg-white text-black p-5 rounded-lg  md:ml-8 text-justify">
+                <p className="text-violet-700 text-xl font-bold">06 Assess</p>
                 Once the actions are taken, we monitor and evaluate the progress
                 and outcomes of the implemented strategies. It includes
                 collecting and analyzing data, measuring performance against
                 predefined metrics and benchmarks, and identifying trends,
-                patterns, and areas for improvement
+                patterns, and areas for improvement.
               </div>
             </div>
           </div>
+
           {/* -------mobile view */}
-          <div className="hexag1-container px-4 md:hidden">
+          <div className=" px-4 md:hidden w-full   flex flex-col justify-center items-center">
             <div className="hexag1-row py-5 flex flex-col justify-center items-center mb-5">
               <div className="rectangle bg-white text-black p-5 rounded-lg flex flex-col justify-center items-center w-full">
                 <img className="w-16 mb-4" src={one} alt="" />
@@ -182,7 +166,7 @@ function Hexa() {
             </div>
             <div className="hexag1-row py-5 flex flex-col justify-center items-center mb-5">
               <div className="rectangle bg-white text-black p-5 rounded-lg flex flex-col justify-center items-center w-full">
-                <img className="w-16 mb-4" src={two} alt="" />
+                <img className="w-16 mb-4" src={image02} alt="" />
                 <p className="text-justify md:text-justify">
                   After assessing the situation, this step entails providing
                   expert advice and recommendations based on the findings. It
@@ -242,6 +226,8 @@ function Hexa() {
               </div>
             </div>
           </div>
+
+          {/* hexass------- mobile------- */}
 
           {/* --------------------------- */}
 

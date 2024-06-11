@@ -46,9 +46,9 @@ const About = () => {
               <h1 className="text-[33px] font-bold text-white">About Us</h1>
 
               <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
-                Are you ready to elevate your business to new heights? Look no
-                further than auxzon Solutions <br /> for data-driven business
-                insights tailored to your specific needs.
+                At Auxzon, we turn data into decisions, transforming challenges
+                into opportunities.
+                <br /> Discover our journey and vision for a smarter future.
               </p>
               <p className="text-white md:pr-10">
                 Home |{" "}
@@ -66,10 +66,10 @@ const About = () => {
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
               <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
                 <h1 className="gradient-text text-black font-bold text-[33px]">
-                  Who we are ...?
+                  Who we are
                 </h1>
                 <p className="text-black text-justify">
-                  At Auxzon Solutions, we are a team of passionate professionals
+                  At auxzon Solutions, we are a team of passionate professionals
                   committed to delivering top-notch solutions tailored to your
                   business needs. Our journey began with a vision to transform
                   the digital landscape, and today, we stand as a dynamic
@@ -120,7 +120,7 @@ const About = () => {
               Our Mission
             </h1>
             <p className="text-black text-justify">
-              We envision a future where businesses transcend boundaries through
+              We envision a future where business transcend boundaries through
               the strategic use of data. Our vision is to be the driving force
               behind a data-powered revolution, empowering organizations
               worldwide with transformative analytics and consulting services
@@ -139,7 +139,7 @@ const About = () => {
             <p className="text-black text-justify">
               At Auxzon Solutions, we believe in a client-centric approach and
               dream of a future where our services become integral to the
-              decision-making of businesses. Join us as we shape a future where
+              decision-making of business. Join us as we shape a future where
               intelligence and innovation converge, powered by data. Together,
               let's embark on a journey toward a business landscape where
               insights drive growth and define new possibilities and horizons.
