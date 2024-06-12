@@ -96,7 +96,7 @@ const ApplyForm = ({ handleClose }) => {
       className="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50 md:m-5 modal-overlay"
       onClick={handleOverlayClick}
     >
-      <div className="bg-[#f0f2f4] w-1/2 p-6 rounded-xl shadow-lg relative md:w-2/5 md:h-full md:p-20 md:border-t-8 border-purple">
+      <div className="bg-[#f0f2f4] w-3/4  p-6 rounded-xl shadow-lg relative md:w-auto md:h-full md:p-20 md:border-t-8 border-purple">
         <button
           className="absolute top-4 right-4 text-2xl text-black"
           onClick={handleClose}
