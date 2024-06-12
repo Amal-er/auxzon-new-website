@@ -46,7 +46,7 @@ function Hexa() {
           >
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl"></div>
             <div className="relative p-5 flex flex-col justify-center items-left md:px-12">
-              <h1 className="text-[33px] font-bold text-white">Auxzon Hexa</h1>
+              <h1 className="text-[33px] font-bold text-white">auxzon Hexa</h1>
               <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
                 Hexa is our commitment to cutting-edge technology and
                 unparalleled service.
@@ -54,17 +54,49 @@ function Hexa() {
                 apart.
               </p>
               <p className="text-white">
-                Home |<span className="text-white md:pl-2"> Auxzon Hexa</span>
+                Home |<span className="text-white md:pl-2"> auxzon Hexa</span>
               </p>
             </div>
           </div>
 
-          <div className="flex justify-center items-center md:py-12 ">
-            <img className="w-[90%] md:w-[500px]" src={auxzonhexa} alt="" />
+          {/* -------------------------------------------- */}
+          <div className="w-full h-auto  flex flex-col md:flex-row justify-center items-center  md:px-5">
+            <div className="flex flex-col md:flex-row justify-center items-center w-full">
+              <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
+                <h1 className="gradient-text text-black font-bold text-[33px]">
+                  auxzon Hexa
+                </h1>
+                <p className="text-black text-justify md:py-5 ">
+                  auxzon Hexa is a comprehensive framework designed to guide
+                  your journey from evaluation to success. It begins with Advice
+                  , where we thoroughly evaluate the current situation, identify
+                  challenges, and gather relevant data. In the Act phase, we
+                  provide expert advice and actionable insights to develop
+                  strategic solutions. Analyze involves monitoring progress,
+                  collecting data, and identifying areas for improvement.
+                  Achieve focuses on successfully implementing strategies and
+                  celebrating milestones. Through Assure , we maintain quality
+                  and consistency, addressing any deviations promptly. Finally,
+                  we Assess the overall process, evaluate the effectiveness of
+                  strategies, and gather feedback for continuous improvement.
+                  Auxzon Hexa ensures a structured approach to achieving your
+                  goals with ongoing refinement and success.
+                </p>
+              </div>
+
+              <div className="w-full md:w-1/2 flex justify-center items-center md:mt-7 px-6">
+                <img
+                  className="w-full md:w-96 h-auto"
+                  src={auxzonhexa}
+                  alt="intro"
+                />
+              </div>
+            </div>
           </div>
 
+          {/* ----------------------------------------------- */}
           {/* hexass------- desktop------- */}
-          <div class="hexag1-container md:px-56 hidden md:block">
+          <div class="hexag1-container md:px-56 hidden md:py-5 md:block">
             <div class="hexag1-row md:py-5 flex flex-col md:flex-row justify-center relative items-center mb-5 md:mb-0">
               <div class="flex flex-col justify-center items-center w-80">
                 <img class="step-icon w-16 md:w-80 " src={one} alt="Step 1" />

@@ -46,7 +46,7 @@ const About = () => {
               <h1 className="text-[33px] font-bold text-white">About Us</h1>
 
               <p className="text-left text-sm sm:text-base lg:text-lg md:py-7 text-white tracking-wide">
-                At Auxzon, we turn data into decisions, transforming challenges
+                At auxzon, we turn data into decisions, transforming challenges
                 into opportunities.
                 <br /> Discover our journey and vision for a smarter future.
               </p>
@@ -62,13 +62,13 @@ const About = () => {
             </div>
           </div>
 
-          <div className="w-full h-auto mt-6 flex flex-col md:flex-row justify-center items-center  md:px-5">
+          <div className="w-full h-auto  flex flex-col md:flex-row justify-center items-center  md:px-5">
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
               <div className="w-full md:w-1/2 flex flex-col justify-center  items-left px-6 md:px-0 mb-6 md:mb-0">
                 <h1 className="gradient-text text-black font-bold text-[33px]">
                   Who we are
                 </h1>
-                <p className="text-black text-justify">
+                <p className="text-black text-justify md:py-8 ">
                   At auxzon Solutions, we are a team of passionate professionals
                   committed to delivering top-notch solutions tailored to your
                   business needs. Our journey began with a vision to transform
@@ -120,13 +120,18 @@ const About = () => {
               Our Mission
             </h1>
             <p className="text-black text-justify">
-              We envision a future where business transcend boundaries through
-              the strategic use of data. Our vision is to be the driving force
-              behind a data-powered revolution, empowering organizations
-              worldwide with transformative analytics and consulting services
-              powered with innovative tools including AI and ML. We see a
-              landscape where data is not just a resource but a catalyst for
-              innovation,
+              At auxzon Solutions, our mission is to empower businesses with
+              innovative technology solutions that drive growth, enhance
+              efficiency, and create lasting value. We strive to be the catalyst
+              for our clients' success by providing expert guidance,
+              cutting-edge software development, and insightful data analytics.
+              Our commitment is to deliver excellence through a collaborative
+              approach, ensuring that each project meets the highest standards
+              of quality and integrity. We are dedicated to continuous learning
+              and improvement, fostering a culture of innovation that enables us
+              to stay ahead in a rapidly evolving digital landscape. Through our
+              services, we aim to transform businesses, helping them achieve
+              their goals and thrive in a competitive world.
             </p>
           </div>
         </div>
@@ -137,12 +142,19 @@ const About = () => {
               Our Vision
             </h1>
             <p className="text-black text-justify">
-              At Auxzon Solutions, we believe in a client-centric approach and
-              dream of a future where our services become integral to the
-              decision-making of business. Join us as we shape a future where
-              intelligence and innovation converge, powered by data. Together,
-              let's embark on a journey toward a business landscape where
-              insights drive growth and define new possibilities and horizons.
+              At auxzon Solutions, our vision is to be a global leader in
+              technology and innovation, driving transformative change for
+              businesses across all industries. We aspire to create a future
+              where our advanced solutions empower organizations to unlock their
+              full potential, making data-driven decisions and achieving
+              unparalleled growth. By fostering a culture of creativity,
+              excellence, and continuous improvement, we aim to set new
+              standards in software development, data analytics, digital
+              marketing, and e-commerce solutions. Our e-commerce expertise,
+              particularly with platforms like Amazon, enables businesses to
+              optimize their online presence and maximize their market reach.
+              Our ultimate goal is to build a sustainable and inclusive digital
+              ecosystem where businesses.
             </p>
           </div>
         </div>

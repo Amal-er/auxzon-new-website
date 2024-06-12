@@ -7,8 +7,8 @@ import { IoIosMail, IoMdCall } from "react-icons/io";
 
 function Footer() {
   return (
-    <footer className="bg-[#1f1f1f] text-white py-12 px-5 flex justify-center items-center">
-      <div className="container mx-auto flex flex-wrap justify-start items-start ">
+    <footer className="bg-[#1f1f1f] text-white py-12 px-5  flex justify-center items-center">
+      <div className="container mx-auto flex flex-wrap justify-start items-start md:px-10 ">
         <div className="w-full sm:w-1/4 flex flex-col items-start mb-8 sm:mb-0 text-left ">
           <img className="w-36  " src={company1} alt="Company Logo" />
           <p className="text-white text-sm py-5">

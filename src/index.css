@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* In your CSS file */
+
+
 
 .gradient-text {
     background: linear-gradient(to right, #3b82f6, #8b5cf6);
@@ -116,4 +119,9 @@
   right: 10px;
   cursor: pointer;
   font-size: 24px;
+}
+/* --------------------- */
+
+.custom-height {
+  height: 400px; /* or any height you prefer */
 }

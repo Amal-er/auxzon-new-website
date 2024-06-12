@@ -21,6 +21,7 @@ import Graphicdesigner from "./Components/Graphicdesigner";
 import VideoGrapher from "./Components/VideoGrapher";
 import MarketingHead from "./Components/MarketingHead";
 import BusinessIntern from "./Components/BusinessIntern";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         {" "}
         {/* Apply the custom font class here */}
         {/* <Navbar /> */}
+        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
