@@ -19,10 +19,12 @@ const DataSolutions = () => {
     companyName: "",
     place: "",
     subject: "",
-    marketingServices: false,
-    softwareSolutions: false,
-    ecommerceBusinessSolutions: false,
-    dataSolutions: false,
+    dataAnalyticsandInsights: false,
+    dataVisualization: false,
+    predictiveAnalytics: false,
+    businessIntelligence: false,
+    dataextraction: false,
+    dataCrawling: false,
   });
 
   const handleChange = (e) => {
@@ -224,42 +226,62 @@ const DataSolutions = () => {
                   <label>
                     <input
                       type="checkbox"
-                      name="marketingServices"
+                      name="dataAnalyticsandInsights"
                       className="mr-2"
-                      checked={formData.marketingServices}
+                      checked={formData.dataAnalyticsandInsights}
                       onChange={handleChange}
                     />
-                    Marketing Services
+                    Data Analytics and Insights
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="softwareSolution"
+                      name="dataVisualization"
                       className="mr-2"
-                      checked={formData.softwareSolutions}
+                      checked={formData.dataVisualization}
                       onChange={handleChange}
                     />
-                    Software Solutions
+                    Data Visualization
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="ecommerceBusinessSolutions"
+                      name="predictiveAnalytics"
                       className="mr-2"
-                      checked={formData.ecommerceBusinessSolutions}
+                      checked={formData.predictiveAnalytics}
                       onChange={handleChange}
                     />
-                    E-commerce Business Solutions
+                    Predictive Analytics
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="dataSolutions"
+                      name="businessIntelligence"
                       className="mr-2"
-                      checked={formData.dataSolutions}
+                      checked={formData.businessIntelligence}
                       onChange={handleChange}
                     />
-                    Data Solutions
+                    Business Intelligence(BI)
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="dataextraction"
+                      className="mr-2"
+                      checked={formData.dataextraction}
+                      onChange={handleChange}
+                    />
+                    Data Extraction
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="dataCrawling"
+                      className="mr-2"
+                      checked={formData.dataCrawling}
+                      onChange={handleChange}
+                    />
+                    Data Crawling
                   </label>
                 </div>
                 <button

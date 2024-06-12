@@ -22,10 +22,12 @@ const SoftwareSolutions = () => {
     companyName: "",
     place: "",
     subject: "",
-    marketingServices: false,
-    softwareSolutions: false,
-    ecommerceBusinessSolutions: false,
-    dataSolutions: false,
+    websiteDesignandDevelopment: false,
+    mobileAppDevelopment: false,
+    customSoftware: false,
+    ecommerce: false,
+    domainSupport: false,
+    serverSupport: false,
   });
 
   const handleChange = (e) => {
@@ -227,42 +229,62 @@ const SoftwareSolutions = () => {
                   <label>
                     <input
                       type="checkbox"
-                      name="marketingServices"
+                      name="websiteDesignandDevelopment"
                       className="mr-2"
-                      checked={formData.marketingServices}
+                      checked={formData.websiteDesignandDevelopment}
                       onChange={handleChange}
                     />
-                    Marketing Services
+                    Website Design and Development
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="softwareSolutions"
+                      name="mobileAppDevelopment"
                       className="mr-2"
-                      checked={formData.softwareSolutions}
+                      checked={formData.mobileAppDevelopment}
                       onChange={handleChange}
                     />
-                    Software Solutions
+                    MobileApp Development
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="ecommerceBusinessSolutions"
+                      name="customSoftware"
                       className="mr-2"
-                      checked={formData.ecommerceBusinessSolutions}
+                      checked={formData.customSoftware}
                       onChange={handleChange}
                     />
-                    E-commerce Business Solutions
+                    Custom Software
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="dataSolutions"
+                      name="ecommerce"
                       className="mr-2"
-                      checked={formData.dataSolutions}
+                      checked={formData.ecommerce}
                       onChange={handleChange}
                     />
-                    Data Solutions
+                    E-commerce
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="domainSupport"
+                      className="mr-2"
+                      checked={formData.domainSupport}
+                      onChange={handleChange}
+                    />
+                    Domain Support
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="serverSupport"
+                      className="mr-2"
+                      checked={formData.serverSupport}
+                      onChange={handleChange}
+                    />
+                    Server Support
                   </label>
                 </div>
                 <button

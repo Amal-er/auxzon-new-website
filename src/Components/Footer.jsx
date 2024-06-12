@@ -3,6 +3,7 @@ import React from "react";
 // import company from "../icons/auxzon-logo.png";
 import company1 from "../assets/images/company1.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoIosMail, IoMdCall } from "react-icons/io";
 
 function Footer() {
@@ -103,14 +104,7 @@ function Footer() {
                 <FaFacebook size={25} />
               </a>
             </li>
-            <li className="mr-4 mb-2">
-              <a
-                href="https://www.instagram.com/auxzons/?fbclid=IwAR1kcfqM4oEDtv1ChPL8uf_HEhZdCNW-4dQVF05TCcYHCDzIaw9FfGkXGJY"
-                className="hover:text-gray-400"
-              >
-                <FaInstagram size={25} />
-              </a>
-            </li>
+
             <li className="mr-4 mb-2">
               <a
                 href="https://www.linkedin.com/company/102232019/admin/feed/posts/"
@@ -121,10 +115,23 @@ function Footer() {
             </li>
             <li className="mr-4 mb-2">
               <a
+                href="https://www.instagram.com/auxzons/?fbclid=IwAR1kcfqM4oEDtv1ChPL8uf_HEhZdCNW-4dQVF05TCcYHCDzIaw9FfGkXGJY"
+                className="hover:text-gray-400"
+              >
+                <FaInstagram size={25} />
+              </a>
+            </li>
+            <li className="mr-4 mb-2">
+              <a
                 href="https://youtube.com/shorts/LLlf11iI04g?si=jen4nlz9fM-s-uin"
                 className="hover:text-gray-400"
               >
                 <FaYoutube size={25} />
+              </a>
+            </li>
+            <li className="mr-4 mb-2">
+              <a href="https://x.com/auxzon" className="hover:text-gray-400">
+                <FaSquareXTwitter size={25} />
               </a>
             </li>
           </ul>

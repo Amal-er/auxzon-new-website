@@ -14,10 +14,11 @@ const EcommerseBusinessSolutions = () => {
     companyName: "",
     place: "",
     subject: "",
-    marketingServices: false,
-    softwareSolutions: false,
-    ecommerceBusinessSolutions: false,
-    dataSolutions: false,
+    MarketResearchandStrategy: false,
+    OperationalManagement: false,
+    MarketingandAdvertising: false,
+    DataAnalysisandReporting: false,
+    PersonalConsultingandTraining: false,
   });
 
   const handleChange = (e) => {
@@ -213,42 +214,52 @@ const EcommerseBusinessSolutions = () => {
                   <label>
                     <input
                       type="checkbox"
-                      name="marketingServices"
+                      name="MarketResearchandStrategy"
                       className="mr-2"
-                      checked={formData.marketingServices}
+                      checked={formData.MarketResearchandStrategy}
                       onChange={handleChange}
                     />
-                    Marketing Services
+                    Market Research and Strategy
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="softwareSolution"
+                      name="OperationalManagement"
                       className="mr-2"
-                      checked={formData.softwareSolutions}
+                      checked={formData.OperationalManagement}
                       onChange={handleChange}
                     />
-                    Software Solutions
+                    Operational Management
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="ecommerceBusinessSolutions"
+                      name="MarketingandAdvertising"
                       className="mr-2"
-                      checked={formData.ecommerceBusinessSolutions}
+                      checked={formData.MarketingandAdvertising}
                       onChange={handleChange}
                     />
-                    E-commerce Business Solutions
+                    Marketing and Advertising
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="dataSolutions"
+                      name="DataAnalysisandReporting"
                       className="mr-2"
-                      checked={formData.dataSolutions}
+                      checked={formData.DataAnalysisandReporting}
                       onChange={handleChange}
                     />
-                    Data Solutions
+                    Data Analysis and Reporting
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="PersonalConsultingandTraining"
+                      className="mr-2"
+                      checked={formData.PersonalConsultingandTraining}
+                      onChange={handleChange}
+                    />
+                    Personal Consulting and Training
                   </label>
                 </div>
                 <button

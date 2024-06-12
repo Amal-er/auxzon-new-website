@@ -16,10 +16,12 @@ const Marketing = () => {
     companyName: "",
     place: "",
     subject: "",
-    marketingServices: false,
-    softwareSolutions: false,
-    ecommerceBusinessSolutions: false,
-    dataSolutions: false,
+    socialMediaMarketing: false,
+    seo: false,
+    campionManagement: false,
+    branding: false,
+    whatsappApi: false,
+    emailMarketing: false,
   });
 
   const handleChange = (e) => {
@@ -220,42 +222,62 @@ const Marketing = () => {
                   <label>
                     <input
                       type="checkbox"
-                      name="marketingServices"
+                      name="socialMediaMarketing"
                       className="mr-2"
-                      checked={formData.marketingServices}
+                      checked={formData.socialMediaMarketing}
                       onChange={handleChange}
                     />
-                    Marketing Services
+                    Socia Media Marketing
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="softwareSolution"
+                      name="seo"
                       className="mr-2"
-                      checked={formData.softwareSolutions}
+                      checked={formData.seo}
                       onChange={handleChange}
                     />
-                    Software Solutions
+                    SEO
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="ecommerceBusinessSolutions"
+                      name="campionManagement"
                       className="mr-2"
-                      checked={formData.ecommerceBusinessSolutions}
+                      checked={formData.campionManagement}
                       onChange={handleChange}
                     />
-                    E-commerce Business Solutions
+                    Campion Management
                   </label>
                   <label>
                     <input
                       type="checkbox"
-                      name="dataSolutions"
+                      name="branding"
                       className="mr-2"
-                      checked={formData.dataSolutions}
+                      checked={formData.branding}
                       onChange={handleChange}
                     />
-                    Data Solutions
+                    Branding
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="whatsappApi"
+                      className="mr-2"
+                      checked={formData.whatsappApi}
+                      onChange={handleChange}
+                    />
+                    Whatsapp Api
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="emailMarketing"
+                      className="mr-2"
+                      checked={formData.emailMarketing}
+                      onChange={handleChange}
+                    />
+                    Email Marketing
                   </label>
                 </div>
                 <button
