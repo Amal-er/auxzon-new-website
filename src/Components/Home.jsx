@@ -14,6 +14,9 @@ import banner2 from "../assets/images/banner2.webp";
 import banner3 from "../assets/images/banner3.webp";
 import { Typewriter } from "react-simple-typewriter";
 import auxzonhexa from "../assets/images/auxzonhexa.png";
+// import banner20 from "../assets/images/banner20"
+import ban1 from "../assets/images/ban1.webp";
+import ban3 from "../assets/images/bane3.webp";
 
 const Home = () => {
   const services = [
@@ -72,10 +75,10 @@ const Home = () => {
 
         <div className="w-full h-auto flex flex-col md:flex-row mt-14">
           <div className="w-full md:w-1/2 md:px-5 py-10 flex justify-start leading-[1.3]">
-            <h1 className="text-gray-600 text-5xl md:text-7xl px-4 font-[500px] leading-[1.3]">
+            <h1 className=" text-gray-600 md:font-semibold  text-5xl md:text-7xl px-4 font-semibold  md:leading-[1.3]">
               <Typewriter
                 words={["Transforming Ideas into Digital Solutions"]}
-                loop={1}
+                loop={2}
                 cursor
                 cursorStyle="_"
                 typeSpeed={70}
@@ -100,15 +103,15 @@ const Home = () => {
         </div>
 
         {/* Banner Images */}
-        <div className="w-full h-64 md:h-96 overflow-hidden">
+        <div className="w-full h-64 md:h-96 overflow-hidden md:px-8">
           <img
             className="rounded-3xl w-full h-full object-cover"
             src={
               currentImageIndex === 0
-                ? ooze
+                ? ban3
                 : currentImageIndex === 1
-                ? banner2
-                : banner3
+                ? ooze
+                : ban1
             }
             alt={`Banner ${currentImageIndex + 1}`}
           />

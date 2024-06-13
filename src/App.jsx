@@ -22,6 +22,7 @@ import VideoGrapher from "./Components/VideoGrapher";
 import MarketingHead from "./Components/MarketingHead";
 import BusinessIntern from "./Components/BusinessIntern";
 import ScrollToTop from "./Components/ScrollToTop";
+import AuxzonX from "./pages/AuxzonX";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route path="/video-grapher" element={<VideoGrapher />} />
           <Route path="/marketing-head" element={<MarketingHead />} />
           <Route path="/bde-intern" element={<BusinessIntern />} />
+          <Route path="/auxzonHexa" element={<AuxzonX />} />
         </Routes>
         {/* <Footer /> */}
       </div>

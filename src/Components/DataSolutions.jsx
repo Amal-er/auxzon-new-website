@@ -291,9 +291,9 @@ const DataSolutions = () => {
                   Submit
                 </button>
               </form>
-              <div className="md:py-5 md:h-auto">
+              <div className="flex justify-center items-center">
                 <video
-                  className="w-[100%] md:w-[100%] py-4 h-64 custom-height"
+                  className="w-[100%] md:w-[100%] md:h-[400px] py-4 h-64 "
                   controls
                   autoPlay
                   loop

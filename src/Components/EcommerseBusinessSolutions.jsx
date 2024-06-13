@@ -5,6 +5,7 @@ import Layout from "./Layout";
 import ecommercebanner from "../assets/images/ecommercebanner.webp";
 // import marketingvideo from "../video/trail.mp4";
 import emailjs from "emailjs-com"; // Import emailjs
+import { Link } from "react-router-dom";
 
 const EcommerseBusinessSolutions = () => {
   const [formData, setFormData] = useState({
@@ -153,6 +154,14 @@ const EcommerseBusinessSolutions = () => {
                     chain.
                   </p>
                 </li>
+                <Link to="/auxzonHexa">
+                  <button
+                    type="readMore"
+                    className="custom-gradient text-white px-4 py-2 rounded-md"
+                  >
+                    Read more
+                  </button>
+                </Link>
               </ul>
             </section>
             <section className="md:w-1/2 md:h-screen">
