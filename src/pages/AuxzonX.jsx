@@ -1,10 +1,14 @@
 import React from "react";
+import logo from "../assets/logo.png";
 
 function AuxzonX() {
   return (
-    <div className="min-h-screen custom-gradient p-5">
+    <div className="min-h-screen bg-gradient-to-r from-orange-100 to-purple-100 p-5">
       <header className="flex justify-between items-center py-4">
-        <div className="text-2xl font-bold">AuxzonX</div>
+        <div className="text-2xl font-bold flex justify-start items-center">
+          <img src={logo} className="w-10" alt="" />
+          azonux
+        </div>
         <nav>
           <ul className="flex space-x-4">
             <li>

@@ -154,7 +154,7 @@ const EcommerseBusinessSolutions = () => {
                     chain.
                   </p>
                 </li>
-                <Link to="/auxzonHexa">
+                <Link to="/auxzonX">
                   <button
                     type="readMore"
                     className="custom-gradient text-white px-4 py-2 rounded-md"

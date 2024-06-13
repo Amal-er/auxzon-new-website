@@ -55,7 +55,7 @@ function App() {
           <Route path="/video-grapher" element={<VideoGrapher />} />
           <Route path="/marketing-head" element={<MarketingHead />} />
           <Route path="/bde-intern" element={<BusinessIntern />} />
-          <Route path="/auxzonHexa" element={<AuxzonX />} />
+          <Route path="/auxzonX" element={<AuxzonX />} />
         </Routes>
         {/* <Footer /> */}
       </div>
