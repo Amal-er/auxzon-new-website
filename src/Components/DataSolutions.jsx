@@ -291,7 +291,7 @@ const DataSolutions = () => {
                   Submit
                 </button>
               </form>
-              <div className="md:py-5 md:h-9">
+              <div className="md:py-5 md:h-auto">
                 <video
                   className="w-[100%] md:w-[100%] py-4 h-64 custom-height"
                   controls

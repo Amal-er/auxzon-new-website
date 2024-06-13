@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Layout from "./Layout";
 import ecommercebanner from "../assets/images/ecommercebanner.webp";
-import marketingvideo from "../video/trail.mp4";
+// import marketingvideo from "../video/trail.mp4";
 import emailjs from "emailjs-com"; // Import emailjs
 
 const EcommerseBusinessSolutions = () => {
@@ -269,7 +269,7 @@ const EcommerseBusinessSolutions = () => {
                   Submit
                 </button>
               </form>
-              <div className="md:py-5 md:h-9">
+              {/* <div className="md:py-5 md:h-9">
                 <video
                   className="w-full py-4 h-64 custom-height"
                   controls
@@ -280,7 +280,7 @@ const EcommerseBusinessSolutions = () => {
                   <source src={marketingvideo} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
-              </div>
+              </div> */}
             </section>
           </main>
 
