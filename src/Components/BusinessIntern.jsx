@@ -72,79 +72,79 @@ const BusinessIntern = () => {
                   Key Responsibilities:
                 </span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Conduct market research to identify potential business
                     opportunities and trends.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Assist in identifying and reaching out to potential clients.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Support client relationship management and follow-up
                     meetings.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Help prepare sales pitches, proposals, and presentations.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Track and manage the sales pipeline using CRM software.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate on developing and implementing growth
                     strategies.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Assist in executing strategic projects and campaigns.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Maintain accurate records of business development activities
                     and provide administrative support.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Manage and update the contact database, working to close
                     sales.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Conduct target-based calling to prospective clients.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Provide daily reporting to the sales manager on activities
                     and progress.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Analyze sales data to identify trends, opportunities, and
@@ -156,68 +156,76 @@ const BusinessIntern = () => {
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">Requirements:</span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Pursuing a degree in Business Administration, Marketing, or
                     a related field.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Strong interest in business development and market research.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>Excellent communication and interpersonal skills.</span>
+                  <span className="flex-1">
+                    Excellent communication and interpersonal skills.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>Proficiency in Microsoft Office Suite.</span>
+                  <span className="flex-1">
+                    Proficiency in Microsoft Office Suite.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>Familiarity with CRM software is a plus.</span>
+                  <span className="flex-1">
+                    Familiarity with CRM software is a plus.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>Strong analytical and problem-solving abilities.</span>
+                  <span className="flex-1">
+                    Strong analytical and problem-solving abilities.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span> Self-motivated and proactive.</span>
+                  <span className="flex-1"> Self-motivated and proactive.</span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
                   <span>Strong attention to detail and visual aesthetics.</span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
@@ -227,7 +235,7 @@ const BusinessIntern = () => {
                     tight deadlines.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
@@ -237,7 +245,7 @@ const BusinessIntern = () => {
                     expectations and feedback.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
@@ -246,55 +254,55 @@ const BusinessIntern = () => {
                     Knowledge of motion graphics and animation is a plus.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center"> */}
+                {/* <li className="flex items-start mt-2"> */}
                 {/* <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   /> */}
                 <span className="text-black font-bold">We Offer:</span>
                 {/* </li> */}
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     A competitive entry-level salary and comprehensive benefits
                     package.
                   </span>
                 </li>
 
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     A vibrant and inclusive company culture that encourages
                     creativity and innovation.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Continuous learning and professional development
                     opportunities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Exposure to a wide range of industries and projects,
                     offering invaluable work experience.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -304,7 +312,7 @@ const BusinessIntern = () => {
                     and prototyping tools.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -314,7 +322,7 @@ const BusinessIntern = () => {
                     ability to present and defend design decisions.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -324,7 +332,7 @@ const BusinessIntern = () => {
                     manage multiple projects, and meet deadlines.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -336,7 +344,7 @@ const BusinessIntern = () => {
                 </li> */}
                 {/*  */}
                 {/* <span className="text-black font-bold">Join Us:</span>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -347,7 +355,7 @@ const BusinessIntern = () => {
                   </span>
                 </li> */}
                 {/*  */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -357,7 +365,7 @@ const BusinessIntern = () => {
                     creativity and innovation.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -367,7 +375,7 @@ const BusinessIntern = () => {
                     opportunities.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"

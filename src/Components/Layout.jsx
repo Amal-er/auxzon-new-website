@@ -120,10 +120,10 @@ const Layout = ({ children }) => {
                   <option value="" disabled>
                     Select a Service
                   </option>
-                  <option value="Analytix Marketing">Analytix Marketing</option>
+                  <option value="marketingServices">Marketing Services</option>
                   <option value="Software Solution">Software Solution</option>
-                  <option value="Business Consulting">
-                    Business Consulting
+                  <option value="ecommerceBusinessSolutions">
+                    Ecommerce Business Solutions
                   </option>
                   <option value="Data Solutions">Data Solutions</option>
                 </select>

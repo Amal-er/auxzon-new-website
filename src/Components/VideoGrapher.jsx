@@ -67,83 +67,83 @@ const VideoGrapher = () => {
                   Key Responsibilities:
                 </span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Plan, shoot, and edit high-quality video content for
                     internal and external projects.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with marketing and product teams on promotional
                     and social media videos.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Handle pre-production planning, storyboarding, lighting,
                     sound, filming, and editing.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Work with clients to align video solutions with their brand
                     identity and objectives.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Maintain consistency with Auxzon Solutions Pvt Ltd’s brand
                     guidelines and visual style.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Contribute creative ideas in brainstorming sessions.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Manage multiple video projects, ensuring timely delivery and
                     meeting deadlines.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Stay updated with industry trends and improve video
                     production capabilities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Present video concepts to stakeholders and clients,
                     incorporating feedback.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with videographers, editors, and team members to
                     achieve project goals.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Monitor sales performance metrics and provide regular
                     reports to senior management.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Analyze sales data to identify trends, opportunities, and
@@ -155,158 +155,162 @@ const VideoGrapher = () => {
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">Requirements:</span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Bachelor’s degree in Film Production, Video Production,
                     Multimedia, or related field.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Proven experience as a Videographer and Video Editor with a
                     strong portfolio.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Proficient in Adobe Premiere Pro, Final Cut Pro, and After
                     Effects.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Strong understanding of video production techniques:
                     lighting, sound, and camera operation.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Excellent communication skills for articulating video
                     concepts and ideas.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Ability to work independently and collaboratively in a team
                     environment.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>Strong attention to detail and aesthetics.</span>
+                  <span className="flex-1">
+                    Strong attention to detail and aesthetics.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>Strong attention to detail and visual aesthetics.</span>
+                  <span className="flex-1">
+                    Strong attention to detail and visual aesthetics.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Time management skills to handle multiple projects with
                     tight deadlines.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Experience working with clients and managing their
                     expectations and feedback.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Knowledge of motion graphics and animation is a plus.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   {/* <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   /> */}
                   <span className="text-black font-bold">We Offer:</span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     A competitive entry-level salary and comprehensive benefits
                     package.
                   </span>
                 </li>
 
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     A vibrant and inclusive company culture that encourages
                     creativity and innovation.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Continuous learning and professional development
                     opportunities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Exposure to a wide range of industries and projects,
                     offering invaluable work experience.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -316,7 +320,7 @@ const VideoGrapher = () => {
                     and prototyping tools.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -326,7 +330,7 @@ const VideoGrapher = () => {
                     ability to present and defend design decisions.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -336,7 +340,7 @@ const VideoGrapher = () => {
                     manage multiple projects, and meet deadlines.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -348,7 +352,7 @@ const VideoGrapher = () => {
                 </li> */}
                 {/*  */}
                 {/* <span className="text-black font-bold">Join Us:</span>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -359,7 +363,7 @@ const VideoGrapher = () => {
                   </span>
                 </li> */}
                 {/*  */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -369,7 +373,7 @@ const VideoGrapher = () => {
                     creativity and innovation.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -379,7 +383,7 @@ const VideoGrapher = () => {
                     opportunities.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"

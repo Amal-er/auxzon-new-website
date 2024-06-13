@@ -9,7 +9,7 @@ import ApplyForm from "./Applyform";
 
 const BusinessDevelopmentExecutive = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [showForm, setShowForm] = useState(false); // State for showing the form
+  const [showForm, setShowForm] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -48,15 +48,14 @@ const BusinessDevelopmentExecutive = () => {
               </p>
             </div>
           </div>
-
           <div className="w-full flex flex-col md:flex-row justify-start items-start md:mb-20 px-3 md:px-5">
             <div className="w-full">
               <h1 className="gradient-text text-black font-bold text-2xl md:text-[33px] md:py-5 text-left">
                 Job Summary
               </h1>
               <p className="text-black text-left text-justify mt-4">
-                We are seeking a Business Development Executive. Who can drive
-                sales, deliver presentations, manage client relationships, and
+                We are seeking a Business Development Executive who can drive
+                sales, deliver presentations, manage client relationships,
                 collaborate with teams, conduct market research, and stay
                 updated on industry trends.
               </p>
@@ -65,53 +64,53 @@ const BusinessDevelopmentExecutive = () => {
                   Key Responsibilities:
                 </span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Identify potential clients, initiate contact through calls
                     and emails, and present our services.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Engage with prospects to understand their needs, demonstrate
                     our solutions, and convert leads into sales.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Deliver compelling presentations and proposals to clients,
                     showcasing the benefits and value of our services.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Manage and execute effective email campaigns to nurture
                     leads and maintain client relationships.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Develop and maintain strong relationships with new and
                     existing clients to ensure continuous business growth.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Conduct research to identify new market opportunities and
                     stay updated on industry trends.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Work closely with the marketing and development teams to
-                    align strategies and achieve business goals
+                    align strategies and achieve business goals.
                   </span>
                 </li>
               </ul>
@@ -119,104 +118,78 @@ const BusinessDevelopmentExecutive = () => {
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">Requirements:</span>
                 <br />
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Bachelor's degree in Business, Marketing, or a related
                     field.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Minimum of 6 months to 1 year of experience in sales,
-                    business development, or a similar role
+                    business development, or a similar role.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="mr-2 text-xl font-semibold"
-                  />
-                  <span> Skills:</span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>
+                <span className="text-black font-bold">Skills:</span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Excellent verbal and written English communication skills.
                   </span>
                 </li>
-
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="mr-2 text-xl font-semibold"
-                  />
-                  <span>Strong presentation and negotiation skills.</span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
+                    Strong presentation and negotiation skills.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="mr-2 text-xl font-semibold"
-                  />
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Ability to build rapport and maintain long-term
                     relationships with clients.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="mr-2 text-xl font-semibold"
-                  />
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Self-motivated and target-driven with a passion for sales
                     and business growth.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="mr-2 text-xl font-semibold"
-                  />
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Ability to work in a fast-paced and dynamic environment.
                   </span>
                 </li>
                 <span className="text-black font-bold">We Offer:</span>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     A competitive entry-level salary and comprehensive benefits
                     package.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     A vibrant and inclusive company culture that encourages
-                    creativity and innovation
+                    creativity and innovation.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Continuous learning and professional development
                     opportunities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Exposure to a wide range of industries and projects,
                     offering invaluable work experience.
                   </span>

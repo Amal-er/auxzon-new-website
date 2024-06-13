@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Layout from "./Layout";
 import marketingbanner from "../assets/images/marketingbanner.webp";
-import marketingvedio from "../video/trail.mp4";
+import marketingvedio from "../video/marketingvideo.mp4";
 
 import emailjs from "emailjs-com"; // Import emailjs
 

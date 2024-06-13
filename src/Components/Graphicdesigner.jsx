@@ -68,86 +68,86 @@ const Graphicdesigner = () => {
                   Key Responsibilities:
                 </span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Develop high-quality graphics, layouts, and visual content
                     for internal projects and external clients.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with marketing and product teams to create
                     brochures, banners, social media graphics, and website
                     visuals.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Design compelling and innovative branding, advertising, and
                     promotional materials.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Work closely with clients to understand their needs and
                     deliver creative solutions that align with their brand
                     identity.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Ensure all designs adhere to Auxzon Solutions Pvt Ltd’s
                     brand guidelines for a cohesive visual style.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Participate in brainstorming sessions, contributing creative
                     ideas and concepts.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Manage multiple design projects simultaneously, ensuring
                     timely delivery and meeting deadlines.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Stay current with industry trends, tools, and software to
                     continuously improve design capabilities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Prepare and present design concepts to stakeholders and
                     clients, incorporating feedback and making revisions.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with other designers, developers, and team
                     members to achieve project goals.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Monitor sales performance metrics and provide regular
                     reports to senior management.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Analyze sales data to identify trends, opportunities, and
@@ -159,149 +159,151 @@ const Graphicdesigner = () => {
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">Requirements:</span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Bachelor’s degree in Graphic Design, Visual Arts, or related
                     field.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Proven experience as a Graphic Designer with a strong
                     portfolio.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Proficiency in Adobe Creative Suite (Photoshop, Illustrator,
                     InDesign).
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Strong understanding of design principles, typography, color
                     theory, and layout techniques.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Excellent communication skills for articulating design
                     concepts.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Ability to work independently and collaboratively.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>Strong attention to detail and aesthetics.</span>
+                  <span className="flex-1">
+                    Strong attention to detail and aesthetics.
+                  </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Effective time management and ability to handle multiple
                     projects under tight deadlines.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Experience managing client expectations and feedback.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Knowledge of web design and multimedia production is a plus.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   {/* <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   /> */}
                   <span className="text-black font-bold">We Offer:</span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     A competitive entry-level salary and comprehensive benefits
                     package.
                   </span>
                 </li>
 
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     A vibrant and inclusive company culture that encourages
                     creativity and innovation.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Continuous learning and professional development
                     opportunities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Exposure to a wide range of industries and projects,
                     offering invaluable work experience.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -311,7 +313,7 @@ const Graphicdesigner = () => {
                     and prototyping tools.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -321,7 +323,7 @@ const Graphicdesigner = () => {
                     ability to present and defend design decisions.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -331,7 +333,7 @@ const Graphicdesigner = () => {
                     manage multiple projects, and meet deadlines.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -343,7 +345,7 @@ const Graphicdesigner = () => {
                 </li> */}
                 {/*  */}
                 {/* <span className="text-black font-bold">Join Us:</span>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -354,7 +356,7 @@ const Graphicdesigner = () => {
                   </span>
                 </li> */}
                 {/*  */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -364,7 +366,7 @@ const Graphicdesigner = () => {
                     creativity and innovation.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -374,7 +376,7 @@ const Graphicdesigner = () => {
                     opportunities.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"

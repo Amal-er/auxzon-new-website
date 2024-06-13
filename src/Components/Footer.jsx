@@ -29,7 +29,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="/about"
+                  href="about"
                   className="text-white text-sm hover:text-gray-400"
                 >
                   About us

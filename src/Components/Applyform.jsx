@@ -175,9 +175,16 @@ const ApplyForm = ({ handleClose }) => {
               required
             >
               <option value="">--Department--</option>
-              <option value="Option 1">Option 1</option>
-              <option value="Option 2">Option 2</option>
-              <option value="Option 3">Option 3</option>
+              <option value="Option 1">Business Development Executive</option>
+              <option value="Option 2">Backend Developer</option>
+              <option value="Option 3">Sales Manager</option>
+              <option value="Option 3">UI-UX Designer</option>
+              <option value="Option 3">Graphic Designer</option>
+              <option value="Option 3">Vedio Grapher</option>
+              <option value="Option 3">Marketing Head</option>
+              <option value="Option 3">
+                Business Development Executive(intern)
+              </option>
             </select>
           </div>
           <div className="mb-4">

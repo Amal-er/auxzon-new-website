@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { IoCheckmarkCircle } from "react-icons/io5";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import career1 from "../assets/images/career1.webp";
 import Layout from "./Layout";
-import { IoCheckmarkCircle } from "react-icons/io5";
 import ApplyForm from "./Applyform";
 
 const Backend = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [showForm, setShowForm] = useState(false); // State for showing the form
+  const [showForm, setShowForm] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -44,11 +43,10 @@ const Backend = () => {
                 Backend Developer
               </h1>
               <p className="text-white">
-                Home |<span className="text-white md:pl-2"> Career</span>
+                Home | <span className="text-white md:pl-2">Career</span>
               </p>
             </div>
           </div>
-
           <div className="w-full flex flex-col md:flex-row justify-start items-start md:mb-20 px-3 md:px-5">
             <div className="w-full">
               <h1 className="gradient-text text-black font-bold text-2xl md:text-[33px] md:py-5 text-left">
@@ -67,70 +65,70 @@ const Backend = () => {
                   Key Responsibilities:
                 </span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Develop and Maintain Server-Side Applications: Design,
                     build, and maintain efficient, reusable, and reliable
                     Node.js code.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     API Development: Develop RESTful APIs using Express.js and
                     integrate with various front-end services.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Database Integration: Work with databases like MongoDB,
                     MySQL, or PostgreSQL to design, develop, and optimize
                     database schemas and queries.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with Front-End Developers: Work closely with
                     front-end developers to integrate user-facing elements with
                     server-side logic.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Performance Optimization: Identify performance bottlenecks
                     and optimize the performance of applications.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Security Best Practices: Implement security and data
                     protection best practices in web applications.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Testing and Debugging: Write unit and integration tests,
                     debug and resolve issues, and ensure the application is
                     stable and reliable.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Code Review and Documentation: Participate in code reviews,
                     document technical specifications, and provide technical
                     guidance to team members.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Stay Updated with Latest Trends: Keep up-to-date with the
                     latest industry trends and technologies to ensure our
                     solutions remain cutting-edge.
@@ -139,112 +137,72 @@ const Backend = () => {
               </ul>
 
               <ul className="text-black py-7 leading-loose">
-                <span className="text-black font-bold">
-                  Required Qualifications:
-                </span>
+                <span className="text-black font-bold">Requirements:</span>
                 <br />
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="  mr-2 text-xl  "
-                  />
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Experience: Minimum of 2-3 years of experience in developing
                     server-side applications using Node.js and Express.js.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="mr-2 text-xl font-semibold"
-                  />
-                  <span>Technical Skills:</span>
+                <li className="flex items-start mt-2">
+                  <span className="text-black font-bold">
+                    Technical Skills:
+                  </span>
                 </li>
-                <li className="pl-6">
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Proficiency in JavaScript (ES6+), Node.js, and Express.js.
                   </span>
                 </li>
-                <li className="pl-6">
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Experience with databases such as MongoDB, MySQL,
                     PostgreSQL.
                   </span>
                 </li>
-                <li className="pl-6">
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Familiarity with front-end technologies (HTML, CSS,
                     JavaScript frameworks like React, Angular, or Vue.js).
                   </span>
                 </li>
-                <li className="pl-6">
-                  <span>Understanding of RESTful API design principles.</span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
+                    Understanding of RESTful API design principles.
+                  </span>
                 </li>
-                <li className="pl-6">
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Knowledge of authentication and authorization mechanisms,
                     including OAuth, JWT, etc.
                   </span>
                 </li>
-                <li className="pl-6">
-                  <span>
+                <li className="flex items-start mt-2">
+                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
+                  <span className="flex-1">
                     Experience with version control systems, preferably Git.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Problem-Solving Skills: Strong analytical and
                     problem-solving skills with the ability to work
                     independently or as part of a team.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle
-                    color="blue"
-                    className="mr-2 text-xl font-semibold"
-                  />
-                  <span>
-                    Education: Bachelor’s degree in Computer Science,
-                    Engineering, or a related field, or equivalent practical
-                    experience.
-                  </span>
-                </li>
-                <span className="text-black font-bold">
-                  Preferred Qualifications:
-                </span>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
-                    Experience with Cloud Services: Knowledge of cloud platforms
-                    such as AWS, Azure, or Google Cloud.
-                  </span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
-                    DevOps: Familiarity with DevOps practices and tools for
-                    continuous integration and deployment.
-                  </span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
-                    Microservices Architecture: Understanding of microservices
-                    architecture and related design patterns.
-                  </span>
-                </li>
-                <li className="flex justify-start items-center">
-                  <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
-                    Open Source Contributions: Active participation in open
-                    source projects or contributions to relevant communities.
-                  </span>
-                </li>
               </ul>
+
               <div className="flex justify-start">
                 <button
                   onClick={handleApplyNowClick}

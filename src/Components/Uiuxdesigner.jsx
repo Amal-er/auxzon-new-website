@@ -68,87 +68,87 @@ const Uiuxdesigner = () => {
                   Key Responsibilities:
                 </span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with cross-functional teams to understand
                     project requirements, user needs, and business objectives.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Design intuitive user interfaces for web and mobile
                     applications, ensuring usability, accessibility, and visual
                     consistency.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Create wireframes, mockups, and prototypes to communicate
                     design concepts and interactions effectively.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Conduct user research, usability testing, and feedback
                     sessions to gather insights and validate design decisions.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Iterate on designs based on user feedback, stakeholder
                     input, and industry best practices.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Work closely with developers to ensure seamless
                     implementation of designs, adhering to technical constraints
                     and performance considerations.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Stay updated on UI/UX trends, emerging technologies, and
                     best practices to continuously improve design capabilities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with stakeholders to define and maintain design
                     systems, style guides, and pattern libraries for consistency
                     across projects.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Build and maintain strong relationships with key customers
                     and clients.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Address customer inquiries, concerns, and complaints in a
                     timely and professional manner.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Monitor sales performance metrics and provide regular
                     reports to senior management.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Analyze sales data to identify trends, opportunities, and
@@ -160,84 +160,84 @@ const Uiuxdesigner = () => {
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">Requirements:</span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Knowledge in UI/UX design for web and mobile applications.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Strong portfolio demonstrating proficiency in creating
                     user-centered design solutions.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Excellent problem-solving skills and attention to detail.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Ability to collaborate effectively with cross-functional
                     teams and stakeholders.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Familiarity with agile development methodologies and
                     processes.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Adaptability to evolving design trends and technologies.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Prior experience working in a digital agency or software
                     development environment is a plus.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Understanding of front-end development technologies (HTML,
                     CSS, JavaScript) is advantageous.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   {/* <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -246,90 +246,90 @@ const Uiuxdesigner = () => {
                     Preferred Qualifications:
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Bachelor’s degree in graphic design, interaction design,
                     HCI, or related field; Master’s degree preferred.
                   </span>
                 </li>
 
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Proven experience in UI/UX design for web and mobile
                     applications.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Proficiency in design tools such as Sketch, Adobe XD, Figma,
                     or similar.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Strong understanding of design principles, typography, color
                     theory, and layout.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Experience with user research methods, usability testing,
                     and prototyping tools.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Excellent communication and collaboration skills, with the
                     ability to present and defend design decisions.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Ability to work effectively in a fast-paced environment,
                     manage multiple projects, and meet deadlines.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Portfolio showcasing a range of UI/UX design projects and
                     processes.
                   </span>
                 </li>
                 {/*  */}
                 <span className="text-black font-bold">We Offer:</span>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -340,7 +340,7 @@ const Uiuxdesigner = () => {
                   </span>
                 </li>
                 {/*  */}
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -350,7 +350,7 @@ const Uiuxdesigner = () => {
                     creativity and innovation.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -360,7 +360,7 @@ const Uiuxdesigner = () => {
                     opportunities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"

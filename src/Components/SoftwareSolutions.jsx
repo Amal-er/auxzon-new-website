@@ -11,7 +11,7 @@ import analytix from "../assets/images/analytix.png";
 import software from "../assets/images/softwaresicon.png";
 import { Link } from "react-router-dom";
 import softwarebanner from "../assets/images/sofwarebanner.webp";
-import marketingvedio from "../video/trail.mp4";
+import softwarevideo from "../video/softwarevideo.mp4";
 import emailjs from "emailjs-com"; // Import emailjs
 
 const SoftwareSolutions = () => {
@@ -302,7 +302,7 @@ const SoftwareSolutions = () => {
                   loop
                   muted
                 >
-                  <source src={marketingvedio} type="video/mp4" />
+                  <source src={softwarevideo} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

@@ -70,84 +70,84 @@ const MarketingHead = () => {
                   Key Responsibilities:
                 </span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Develop and execute innovative marketing strategies for
                     brand awareness and revenue growth.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Oversee all digital marketing aspects: SEO, content
                     creation, email, social media, and performance marketing.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate internally and externally for tailored campaigns
                     aligned with business objectives.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Lead high-quality content development across various
                     channels.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Manage LinkedIn Ads campaigns to engage target audiences and
                     drive conversions.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Implement email marketing campaigns to nurture leads and
                     enhance customer retention.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Analyze marketing metrics to optimize strategies and
                     campaign effectiveness.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Stay updated with industry trends and emerging technologies
                     in digital marketing.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Lead and mentor a team of marketing professionals, offering
                     guidance and support.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
-                  <span>
+                  <span className="flex-1">
                     Collaborate with sales teams to drive lead generation and
                     conversion alignment.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Monitor sales performance metrics and provide regular
                     reports to senior management.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle color="blue" className="mr-2 text-xl" />
                   <span>
                     Analyze sales data to identify trends, opportunities, and
@@ -159,99 +159,99 @@ const MarketingHead = () => {
               <ul className="text-black py-7 leading-loose">
                 <span className="text-black font-bold">Requirements:</span>
                 <br />
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Bachelor’s degree in Marketing, Business Administration,
                     Communications, or related field. MBA preferred.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Proven senior marketing experience with a track record of
                     successful initiatives.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Expertise in digital marketing channels: SEO, content,
                     social media, email, and performance.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Strong analytical skills for data interpretation and
                     informed decision-making.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Excellent communication and leadership skills to motivate
                     teams and stakeholders.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Creative problem-solving mindset focused on innovation and
                     improvement.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     {" "}
                     Experience with marketing automation platforms and CRM
                     systems.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     {" "}
                     Ability to manage multiple projects in a fast-paced
                     environment.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     Strong project management skills with task prioritization
                     and deadline management.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
@@ -261,7 +261,7 @@ const MarketingHead = () => {
                     expectations and feedback.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
@@ -270,55 +270,55 @@ const MarketingHead = () => {
                     Knowledge of motion graphics and animation is a plus.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center"> */}
+                {/* <li className="flex items-start mt-2"> */}
                 {/* <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   /> */}
                 <span className="text-black font-bold ">We Offer:</span>
                 {/* </li> */}
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="  mr-2 text-xl  "
                   />
-                  <span>
+                  <span className="flex-1">
                     A competitive entry-level salary and comprehensive benefits
                     package.
                   </span>
                 </li>
 
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     A vibrant and inclusive company culture that encourages
                     creativity and innovation.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Continuous learning and professional development
                     opportunities.
                   </span>
                 </li>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
                   />
-                  <span>
+                  <span className="flex-1">
                     Exposure to a wide range of industries and projects,
                     offering invaluable work experience.
                   </span>
                 </li>
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -328,7 +328,7 @@ const MarketingHead = () => {
                     and prototyping tools.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -338,7 +338,7 @@ const MarketingHead = () => {
                     ability to present and defend design decisions.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -348,7 +348,7 @@ const MarketingHead = () => {
                     manage multiple projects, and meet deadlines.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -360,7 +360,7 @@ const MarketingHead = () => {
                 </li> */}
                 {/*  */}
                 {/* <span className="text-black font-bold">Join Us:</span>
-                <li className="flex justify-start items-center">
+                <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -371,7 +371,7 @@ const MarketingHead = () => {
                   </span>
                 </li> */}
                 {/*  */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -381,7 +381,7 @@ const MarketingHead = () => {
                     creativity and innovation.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"
@@ -391,7 +391,7 @@ const MarketingHead = () => {
                     opportunities.
                   </span>
                 </li> */}
-                {/* <li className="flex justify-start items-center">
+                {/* <li className="flex items-start mt-2">
                   <IoCheckmarkCircle
                     color="blue"
                     className="mr-2 text-xl font-semibold"

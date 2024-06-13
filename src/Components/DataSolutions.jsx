@@ -8,7 +8,7 @@ import { IoMdDownload } from "react-icons/io";
 
 import { Link } from "react-router-dom";
 import databanner from "../assets/images/databanner.webp";
-import marketingvedio from "../video/trail.mp4";
+import datavedio from "../video/datavideo.mp4";
 import emailjs from "emailjs-com"; // Import emailjs
 
 const DataSolutions = () => {
@@ -299,7 +299,7 @@ const DataSolutions = () => {
                   loop
                   muted
                 >
-                  <source src={marketingvedio} type="video/mp4" />
+                  <source src={datavedio} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
