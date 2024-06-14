@@ -125,10 +125,23 @@
 .custom-height {
   height: 400px; /* or any height you prefer */
 }
-/* 
-.typewriter-text {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  
-} */
+
+/* ------------------ */
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 1.5s ease-in-out infinite;
+}
