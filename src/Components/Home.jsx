@@ -89,7 +89,7 @@ const Home = () => {
           </div>
 
           <div className="w-full md:w-1/2 py-7 flex flex-col justify-center px-5 md:py-24 md:px-20 ">
-            <p className="text-left md:text-left mb-4 text-black">
+            <p className=" md:text-left mb-4 text-black text-justify">
               Unveiling the power of your data. Empower yourself with Auxzon and
               transform your data into a strategic asset for sustainable growth
               and innovation.

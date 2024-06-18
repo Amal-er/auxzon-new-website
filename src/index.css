@@ -145,3 +145,30 @@
 .animate-slide-in {
   animation: slide-in 1.5s ease-in-out infinite;
 }
+/* ------------- */
+.content{
+  max-width: 100rem;
+  margin:  20px;
+  background-color: white;
+  border: black 5px;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 30px;
+
+
+  
+}
+.long-text{
+  max-height: 0;
+  overflow: hidden;
+  display: inline-block;
+  text-align: justify;
+  
+
+}
+.expanded{
+  max-height: 50rem;
+}
+
+/*  */
+
