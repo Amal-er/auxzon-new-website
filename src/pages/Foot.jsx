@@ -16,7 +16,7 @@ const Foot = () => {
 
           <p>
             Email:{" "}
-            <a href="mailto:Contact@auxzon.com" className="text-blue-400">
+            <a href="mailto:Contact@auxzon.com" className="">
               Contact@auxzon.com
             </a>
           </p>
@@ -59,6 +59,9 @@ const Foot = () => {
         >
           <FaInstagram size={24} />
         </a>
+      </div>
+      <div className="flex justify-center items-center pt-3 md:pt-3">
+        <p>© 2024 Auxzon. All Rights Reserved.</p>
       </div>
     </footer>
   );
