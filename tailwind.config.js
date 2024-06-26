@@ -14,19 +14,13 @@
 //   plugins: [],
 // };
 
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        poppins: [
-          "Poppins",
-          "Helvetica Neue",
-          "Helvetica",
-          "Arial",
-          "sans-serif",
-        ],
+        lora: ["Lora", "serif"],
       },
       backgroundImage: {
         "custom-gradient": "linear-gradient(to right, #3b82f6, #8b5cf6)",

@@ -23,6 +23,8 @@ import MarketingHead from "./Components/MarketingHead";
 import BusinessIntern from "./Components/BusinessIntern";
 import ScrollToTop from "./Components/ScrollToTop";
 import AuxzonX from "./pages/AuxzonX";
+import LandingPage from "./pages/LandingPage";
+// import Homes from "./pages/Homes";
 
 function App() {
   return (
@@ -56,6 +58,7 @@ function App() {
           <Route path="/marketing-head" element={<MarketingHead />} />
           <Route path="/bde-intern" element={<BusinessIntern />} />
           <Route path="/auxzonX" element={<AuxzonX />} />
+          <Route path="/landingpage" element={<LandingPage />} />
         </Routes>
         {/* <Footer /> */}
       </div>

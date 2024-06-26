@@ -4,7 +4,9 @@
 
 /* In your CSS file */
 
-
+body {
+  @apply font-lora;
+}
 
 .gradient-text {
     background: linear-gradient(to right, #3b82f6, #8b5cf6);
@@ -149,7 +151,7 @@
 .content{
   max-width: 100rem;
   margin:  20px;
-  background-color: white;
+  background-color: #f7f7f7;
   border: black 5px;
   padding: 2rem;
   border-radius: 4px;
@@ -167,8 +169,61 @@
 
 }
 .expanded{
-  max-height: 50rem;
+  max-height: 100rem;
 }
 
 /*  */
 
+.hide-scrollbar {
+  overflow-x: auto;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+}
+
+/* --------------------------- */
+
+/* ---------------- */
+.custom-gradient {
+  overflow: hidden; /* Ensure content does not overflow */
+}
+
+.lazy-loaded {
+  opacity: 0;
+  transform: translateY(50%); /* Start position, adjust as needed */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.custom-gradient.loaded .lazy-loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* --------------- */
+
+.landing-page {
+  position: relative;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+}
